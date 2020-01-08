@@ -2,10 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="56a9d471-70c8-4a3f-a446-5067bad9a39c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/main.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/test.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ArrayReverse.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ArrayReverse.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/code401challenges/ArrayShift.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/code401challenges/ArrayShift.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/code401challenges/ArrayShiftTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/code401challenges/ArrayShiftTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -97,13 +96,33 @@
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
   </component>
-  <component name="RunManager" selected="Application.ArrayReverse">
+  <component name="RunManager" selected="Gradle.ArrayShiftTest.testArrayShift">
     <configuration name="ArrayReverse" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="code401challenges.ArrayReverse" />
       <module name="main" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
+    </configuration>
+    <configuration name="ArrayShiftTest.testArrayShift" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="--tests &quot;code401challenges.ArrayShiftTest.testArrayShift&quot;" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":cleanTest" />
+            <option value=":test" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
+      <method v="2" />
     </configuration>
     <configuration name="LibraryTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
@@ -123,25 +142,6 @@
         <option name="vmOptions" />
       </ExternalSystemSettings>
       <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
-      <method v="2" />
-    </configuration>
-    <configuration name="code401challenges [build]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value="build" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <GradleScriptDebugEnabled>true</GradleScriptDebugEnabled>
       <method v="2" />
     </configuration>
     <configuration name="code401challenges [clean]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
@@ -184,11 +184,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.ArrayShiftTest.testArrayShift" />
         <item itemvalue="Gradle.LibraryTest" />
         <item itemvalue="Application.ArrayReverse" />
         <item itemvalue="Gradle.code401challenges [clean]" />
         <item itemvalue="Gradle.code401challenges [test]" />
-        <item itemvalue="Gradle.code401challenges [build]" />
       </list>
     </recent_temporary>
   </component>
@@ -231,26 +231,46 @@
       <screen x="0" y="23" width="1440" height="821" />
     </state>
     <state x="429" y="69" key="#code401challenges/0.23.1440.821@0.23.1440.821" timestamp="1578447941677" />
-    <state width="1358" height="200" key="GridCell.Tab.0.bottom" timestamp="1578448386089">
-      <screen x="0" y="23" width="1440" height="816" />
+    <state width="1358" height="199" key="GridCell.Tab.0.bottom" timestamp="1578460029489">
+      <screen x="0" y="23" width="1440" height="822" />
     </state>
     <state width="1358" height="200" key="GridCell.Tab.0.bottom/0.23.1440.816@0.23.1440.816" timestamp="1578448386089" />
     <state width="1358" height="200" key="GridCell.Tab.0.bottom/0.23.1440.821@0.23.1440.821" timestamp="1578448104276" />
-    <state width="1358" height="200" key="GridCell.Tab.0.center" timestamp="1578448386088">
-      <screen x="0" y="23" width="1440" height="816" />
+    <state width="1358" height="199" key="GridCell.Tab.0.bottom/0.23.1440.822@0.23.1440.822" timestamp="1578460029489" />
+    <state width="1358" height="199" key="GridCell.Tab.0.center" timestamp="1578460029488">
+      <screen x="0" y="23" width="1440" height="822" />
     </state>
     <state width="1358" height="200" key="GridCell.Tab.0.center/0.23.1440.816@0.23.1440.816" timestamp="1578448386088" />
     <state width="1358" height="200" key="GridCell.Tab.0.center/0.23.1440.821@0.23.1440.821" timestamp="1578448104275" />
-    <state width="1358" height="200" key="GridCell.Tab.0.left" timestamp="1578448386088">
-      <screen x="0" y="23" width="1440" height="816" />
+    <state width="1358" height="199" key="GridCell.Tab.0.center/0.23.1440.822@0.23.1440.822" timestamp="1578460029488" />
+    <state width="1358" height="199" key="GridCell.Tab.0.left" timestamp="1578460029488">
+      <screen x="0" y="23" width="1440" height="822" />
     </state>
     <state width="1358" height="200" key="GridCell.Tab.0.left/0.23.1440.816@0.23.1440.816" timestamp="1578448386088" />
     <state width="1358" height="200" key="GridCell.Tab.0.left/0.23.1440.821@0.23.1440.821" timestamp="1578448104275" />
-    <state width="1358" height="200" key="GridCell.Tab.0.right" timestamp="1578448386089">
-      <screen x="0" y="23" width="1440" height="816" />
+    <state width="1358" height="199" key="GridCell.Tab.0.left/0.23.1440.822@0.23.1440.822" timestamp="1578460029488" />
+    <state width="1358" height="199" key="GridCell.Tab.0.right" timestamp="1578460029489">
+      <screen x="0" y="23" width="1440" height="822" />
     </state>
     <state width="1358" height="200" key="GridCell.Tab.0.right/0.23.1440.816@0.23.1440.816" timestamp="1578448386089" />
     <state width="1358" height="200" key="GridCell.Tab.0.right/0.23.1440.821@0.23.1440.821" timestamp="1578448104276" />
+    <state width="1358" height="199" key="GridCell.Tab.0.right/0.23.1440.822@0.23.1440.822" timestamp="1578460029489" />
+    <state width="1358" height="248" key="GridCell.Tab.1.bottom" timestamp="1578459904158">
+      <screen x="0" y="23" width="1440" height="822" />
+    </state>
+    <state width="1358" height="248" key="GridCell.Tab.1.bottom/0.23.1440.822@0.23.1440.822" timestamp="1578459904158" />
+    <state width="1358" height="248" key="GridCell.Tab.1.center" timestamp="1578459904157">
+      <screen x="0" y="23" width="1440" height="822" />
+    </state>
+    <state width="1358" height="248" key="GridCell.Tab.1.center/0.23.1440.822@0.23.1440.822" timestamp="1578459904157" />
+    <state width="1358" height="248" key="GridCell.Tab.1.left" timestamp="1578459904157">
+      <screen x="0" y="23" width="1440" height="822" />
+    </state>
+    <state width="1358" height="248" key="GridCell.Tab.1.left/0.23.1440.822@0.23.1440.822" timestamp="1578459904157" />
+    <state width="1358" height="248" key="GridCell.Tab.1.right" timestamp="1578459904157">
+      <screen x="0" y="23" width="1440" height="822" />
+    </state>
+    <state width="1358" height="248" key="GridCell.Tab.1.right/0.23.1440.822@0.23.1440.822" timestamp="1578459904157" />
     <state x="515" y="220" key="chooseDestDirectoryDialog" timestamp="1578448222297">
       <screen x="0" y="23" width="1440" height="816" />
     </state>
@@ -263,5 +283,31 @@
       <screen x="0" y="23" width="1440" height="821" />
     </state>
     <state x="385" y="198" width="670" height="675" key="run.anything.popup/0.23.1440.821@0.23.1440.821" timestamp="1578448144215" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/code401challenges/ArrayShift.java</url>
+          <line>7</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/code401challenges/ArrayShift.java</url>
+          <line>11</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/code401challenges/ArrayShift.java</url>
+          <line>12</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/code401challenges/ArrayShift.java</url>
+          <line>16</line>
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
