@@ -22,4 +22,4 @@ Since arrays are fixed-length this requires declaring a new array and assigning 
 ## Solution
 I decided to find the midpoint by dividing the input array in half and storing it in an int to remove any decimals. Then I declared a new array with a length +1 of the input array. I iterated over the new array and inside the for loop created an if statement to test if the iteration was before, equal to, or after the midpoint, which determined how I would assign values to each index of the new array.
 
-![Whiteboard](assets/Image from iOS.jpg)
+![Whiteboard](assets/iOS.jpg)
