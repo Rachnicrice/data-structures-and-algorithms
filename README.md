@@ -34,4 +34,5 @@ A binary search is O(log n) time efficiency. In order to perform the binary sear
 ## Solution
 Inside a while loop, I found the middle of my search range by dividing the length of the array-1 by 2. I shrank my range by 1 if the compared charater did not match my search key, and then compared my search key to the character in the middle of that new range. If the key was not found by the time the search range reached 0, -1 would be returned.
 
+[See Code Here](https://github.com/Rachnicrice/data-structures-and-algorithms/blob/array-binary-search/code401challenges/src/main/java/code401challenges/BinarySearch.java)
 ![Whiteboard](assets/binary-search.jpg)
