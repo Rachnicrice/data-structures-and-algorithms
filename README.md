@@ -36,3 +36,22 @@ Inside a while loop, I found the middle of my search range by dividing the lengt
 
 [See Code Here](https://github.com/Rachnicrice/data-structures-and-algorithms/blob/array-binary-search/code401challenges/src/main/java/code401challenges/BinarySearch.java)
 ![Whiteboard](assets/binary-search.jpg)
+
+
+# Singly Linked List
+The following code challenges all use singly-linked lists (where the current Node points to the next Node in the sequence or null if no following Node exists).
+
+## Challenge 04
+The problem domain for this challenge was to create a singly-linked list, which you could insert to with a O(1) runtime, and which contained methods to check the list for a value, and print the values of the nodes included in the linked list in a string.
+
+## Approach & Efficiency
+In order to achieve a O(1) run time for insertion, I had to insert the new Node at the head of the linked list. To do this I made the new Node point at the current head Node, and then replaced the head Node with the new Node.
+
+## API
+The LinkedList class currently has the following public methods:
+ - insert
+  - Takes in a string and instantiates a new Node, then inserts the new Node at the head of the linked list.
+ - includes
+  - Takes in a string search key and iterates through the linked list until the search key is found, or returns false if the search key is not found by the end of the linked list.
+ - toString
+  - Takes in no parameters, iterates through the linked list and concatenates the values in a string. At the end of the list returns the string with all the values.
