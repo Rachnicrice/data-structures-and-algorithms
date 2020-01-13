@@ -5,6 +5,12 @@ import org.junit.Test;
 
 public class LinkedListTest {
 
+    @Test public void testCanInstantiateList () {
+        LinkedList testList = new LinkedList();
+
+        Assert.assertEquals(null, testList.head);
+    }
+
     @Test public void testInsertOneValue () {
         LinkedList testList = new LinkedList();
         testList.insert("b");
