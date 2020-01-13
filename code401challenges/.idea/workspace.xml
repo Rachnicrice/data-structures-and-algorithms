@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="56a9d471-70c8-4a3f-a446-5067bad9a39c" name="Default Changelist" comment="" />
+    <list default="true" id="56a9d471-70c8-4a3f-a446-5067bad9a39c" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -70,13 +73,13 @@
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
   </component>
-  <component name="RunManager" selected="Gradle.BinarySearchTest.testBinarySearchLongArray">
-    <configuration name="ArrayShiftTest.testArrayShift" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+  <component name="RunManager" selected="Gradle.LinkedListTest.testIncludesMultipleSameValues">
+    <configuration name="LinkedListTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;code401challenges.ArrayShiftTest.testArrayShift&quot;" />
+        <option name="scriptParameters" value="--tests &quot;code401challenges.LinkedList.LinkedListTest&quot;" />
         <option name="taskDescriptions">
           <list />
         </option>
@@ -91,12 +94,12 @@
       <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="BinarySearchTest.testBinarySearch" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="LinkedListTest.testIncludesMultipleSameValues" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;code401challenges.BinarySearchTest.testBinarySearch&quot;" />
+        <option name="scriptParameters" value="--tests &quot;code401challenges.LinkedList.LinkedListTest.testIncludesMultipleSameValues&quot;" />
         <option name="taskDescriptions">
           <list />
         </option>
@@ -111,12 +114,12 @@
       <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="BinarySearchTest.testBinarySearchLongArray" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="LinkedListTest.testInsertMultipleValues" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;code401challenges.BinarySearchTest.testBinarySearchLongArray&quot;" />
+        <option name="scriptParameters" value="--tests &quot;code401challenges.LinkedList.LinkedListTest.testInsertMultipleValues&quot;" />
         <option name="taskDescriptions">
           <list />
         </option>
@@ -131,12 +134,12 @@
       <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="BinarySearchTest.testBinarySearchNullArray" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="LinkedListTest.testToString" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;code401challenges.BinarySearchTest.testBinarySearchNullArray&quot;" />
+        <option name="scriptParameters" value="--tests &quot;code401challenges.LinkedList.LinkedListTest.testToString&quot;" />
         <option name="taskDescriptions">
           <list />
         </option>
@@ -151,12 +154,12 @@
       <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="BinarySearchTest.testBinarySearchValueNotFound" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="LinkedListTest.testToStringNoValues" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;code401challenges.BinarySearchTest.testBinarySearchValueNotFound&quot;" />
+        <option name="scriptParameters" value="--tests &quot;code401challenges.LinkedList.LinkedListTest.testToStringNoValues&quot;" />
         <option name="taskDescriptions">
           <list />
         </option>
@@ -173,11 +176,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Gradle.BinarySearchTest.testBinarySearchLongArray" />
-        <item itemvalue="Gradle.BinarySearchTest.testBinarySearchNullArray" />
-        <item itemvalue="Gradle.BinarySearchTest.testBinarySearchValueNotFound" />
-        <item itemvalue="Gradle.BinarySearchTest.testBinarySearch" />
-        <item itemvalue="Gradle.ArrayShiftTest.testArrayShift" />
+        <item itemvalue="Gradle.LinkedListTest.testIncludesMultipleSameValues" />
+        <item itemvalue="Gradle.LinkedListTest" />
+        <item itemvalue="Gradle.LinkedListTest.testInsertMultipleValues" />
+        <item itemvalue="Gradle.LinkedListTest.testToStringNoValues" />
+        <item itemvalue="Gradle.LinkedListTest.testToString" />
       </list>
     </recent_temporary>
   </component>
@@ -220,30 +223,34 @@
       <screen x="0" y="23" width="1440" height="821" />
     </state>
     <state x="429" y="69" key="#code401challenges/0.23.1440.821@0.23.1440.821" timestamp="1578447941677" />
-    <state width="1358" height="198" key="GridCell.Tab.0.bottom" timestamp="1578547657865">
-      <screen x="0" y="23" width="1440" height="816" />
+    <state width="1398" height="242" key="GridCell.Tab.0.bottom" timestamp="1578943153967">
+      <screen x="0" y="0" width="1440" height="900" />
     </state>
+    <state width="1398" height="242" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1578943153967" />
     <state width="1358" height="198" key="GridCell.Tab.0.bottom/0.23.1440.814@0.23.1440.814" timestamp="1578547536152" />
     <state width="1358" height="198" key="GridCell.Tab.0.bottom/0.23.1440.816@0.23.1440.816" timestamp="1578547657865" />
     <state width="1358" height="248" key="GridCell.Tab.0.bottom/0.23.1440.821@0.23.1440.821" timestamp="1578503402393" />
     <state width="1358" height="199" key="GridCell.Tab.0.bottom/0.23.1440.822@0.23.1440.822" timestamp="1578460029489" />
-    <state width="1358" height="198" key="GridCell.Tab.0.center" timestamp="1578547657864">
-      <screen x="0" y="23" width="1440" height="816" />
+    <state width="1398" height="242" key="GridCell.Tab.0.center" timestamp="1578943153965">
+      <screen x="0" y="0" width="1440" height="900" />
     </state>
+    <state width="1398" height="242" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1578943153965" />
     <state width="1358" height="198" key="GridCell.Tab.0.center/0.23.1440.814@0.23.1440.814" timestamp="1578547536151" />
     <state width="1358" height="198" key="GridCell.Tab.0.center/0.23.1440.816@0.23.1440.816" timestamp="1578547657864" />
     <state width="1358" height="248" key="GridCell.Tab.0.center/0.23.1440.821@0.23.1440.821" timestamp="1578503402392" />
     <state width="1358" height="199" key="GridCell.Tab.0.center/0.23.1440.822@0.23.1440.822" timestamp="1578460029488" />
-    <state width="1358" height="198" key="GridCell.Tab.0.left" timestamp="1578547657864">
-      <screen x="0" y="23" width="1440" height="816" />
+    <state width="1398" height="242" key="GridCell.Tab.0.left" timestamp="1578943153965">
+      <screen x="0" y="0" width="1440" height="900" />
     </state>
+    <state width="1398" height="242" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1578943153965" />
     <state width="1358" height="198" key="GridCell.Tab.0.left/0.23.1440.814@0.23.1440.814" timestamp="1578547536151" />
     <state width="1358" height="198" key="GridCell.Tab.0.left/0.23.1440.816@0.23.1440.816" timestamp="1578547657864" />
     <state width="1358" height="248" key="GridCell.Tab.0.left/0.23.1440.821@0.23.1440.821" timestamp="1578503402392" />
     <state width="1358" height="199" key="GridCell.Tab.0.left/0.23.1440.822@0.23.1440.822" timestamp="1578460029488" />
-    <state width="1358" height="198" key="GridCell.Tab.0.right" timestamp="1578547657865">
-      <screen x="0" y="23" width="1440" height="816" />
+    <state width="1398" height="242" key="GridCell.Tab.0.right" timestamp="1578943153966">
+      <screen x="0" y="0" width="1440" height="900" />
     </state>
+    <state width="1398" height="242" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1578943153966" />
     <state width="1358" height="198" key="GridCell.Tab.0.right/0.23.1440.814@0.23.1440.814" timestamp="1578547536152" />
     <state width="1358" height="198" key="GridCell.Tab.0.right/0.23.1440.816@0.23.1440.816" timestamp="1578547657865" />
     <state width="1358" height="248" key="GridCell.Tab.0.right/0.23.1440.821@0.23.1440.821" timestamp="1578503402393" />
