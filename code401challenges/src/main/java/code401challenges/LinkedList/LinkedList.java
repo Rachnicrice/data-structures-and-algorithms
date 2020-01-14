@@ -1,14 +1,16 @@
 package code401challenges.LinkedList;
 
 
+import java.util.NoSuchElementException;
+
 public class LinkedList {
     //instance variables for LinkedList Class
     Node head;
 
     //instance methods for LinkedList Class
-    public void appendNodeToEnd (String letter) {
+    public void append (String value) {
         //Create a new node
-        Node newNode = new Node(letter);
+        Node newNode = new Node(value);
 
         //Check to see if Nodes already exist in the Linked List
         if (this.head == null) {
@@ -27,9 +29,9 @@ public class LinkedList {
         }
     };
 
-    public void insert(String letter) {
+    public void insert(String value) {
         //Create a new node
-        Node newNode = new Node(letter);
+        Node newNode = new Node(value);
 
         if (this.head == null) {
             this.head = newNode;
@@ -64,6 +66,45 @@ public class LinkedList {
         }
 
         return listValues + "NULL";
+    }
+
+    public void insertBefore (String searchVal, String newVal) {
+        Node lastNode = this.head;
+        Node currentNode = this.head;
+
+        while (currentNode !=null) {
+            if (currentNode.value.equals(searchVal)){
+                Node newNode = new Node(newVal);
+                newNode.next = lastNode.next;
+                lastNode.next = newNode;
+                break;
+            }
+            lastNode = currentNode;
+            currentNode = currentNode.next;
+        }
+
+        if (currentNode == null) {
+            throw new NoSuchElementException("Search Value not included in List");
+        }
+
+    }
+
+    public void insertAfter (String searchVal, String newVal) {
+        Node currentNode = this.head;
+
+        while (currentNode != null) {
+            if (currentNode.value.equals(searchVal)){
+                Node newNode = new Node(newVal);
+                newNode.next = currentNode.next;
+                currentNode.next = newNode;
+                break;
+            }
+            currentNode = currentNode.next;
+        }
+
+        if (currentNode == null) {
+            throw new NoSuchElementException("Search Value not included in List");
+        }
     }
 
 }

@@ -2,6 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="56a9d471-70c8-4a3f-a446-5067bad9a39c" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/code401challenges/LinkedList/LinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/code401challenges/LinkedList/LinkedList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/code401challenges/LinkedList/Node.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/code401challenges/LinkedList/Node.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/code401challenges/LinkedList/LinkedListTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/code401challenges/LinkedList/LinkedListTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -72,13 +75,13 @@
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
   </component>
-  <component name="RunManager" selected="Gradle.LinkedListTest.testCanInstantiateList">
-    <configuration name="LinkedListTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+  <component name="RunManager" selected="Gradle.LinkedListTest.testInsertAfter_ValueInList">
+    <configuration name="LinkedListTest.testAppendMultipleValues" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;code401challenges.LinkedList.LinkedListTest&quot;" />
+        <option name="scriptParameters" value="--tests &quot;code401challenges.LinkedList.LinkedListTest.testAppendMultipleValues&quot;" />
         <option name="taskDescriptions">
           <list />
         </option>
@@ -93,12 +96,12 @@
       <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="LinkedListTest.testCanInstantiateList" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="LinkedListTest.testInsertAfter_ValueInList" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;code401challenges.LinkedList.LinkedListTest.testCanInstantiateList&quot;" />
+        <option name="scriptParameters" value="--tests &quot;code401challenges.LinkedList.LinkedListTest.testInsertAfter_ValueInList&quot;" />
         <option name="taskDescriptions">
           <list />
         </option>
@@ -113,12 +116,12 @@
       <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="LinkedListTest.testIncludesMultipleSameValues" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="LinkedListTest.testInsertAfter_ValueNotInList" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;code401challenges.LinkedList.LinkedListTest.testIncludesMultipleSameValues&quot;" />
+        <option name="scriptParameters" value="--tests &quot;code401challenges.LinkedList.LinkedListTest.testInsertAfter_ValueNotInList&quot;" />
         <option name="taskDescriptions">
           <list />
         </option>
@@ -133,12 +136,12 @@
       <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="LinkedListTest.testInsertMultipleValues" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="LinkedListTest.testInsertBefore_ValueInList" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;code401challenges.LinkedList.LinkedListTest.testInsertMultipleValues&quot;" />
+        <option name="scriptParameters" value="--tests &quot;code401challenges.LinkedList.LinkedListTest.testInsertBefore_ValueInList&quot;" />
         <option name="taskDescriptions">
           <list />
         </option>
@@ -153,12 +156,12 @@
       <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="LinkedListTest.testToStringNoValues" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="LinkedListTest.testInsertBefore_ValueNotInList" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;code401challenges.LinkedList.LinkedListTest.testToStringNoValues&quot;" />
+        <option name="scriptParameters" value="--tests &quot;code401challenges.LinkedList.LinkedListTest.testInsertBefore_ValueNotInList&quot;" />
         <option name="taskDescriptions">
           <list />
         </option>
@@ -175,11 +178,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Gradle.LinkedListTest.testCanInstantiateList" />
-        <item itemvalue="Gradle.LinkedListTest.testIncludesMultipleSameValues" />
-        <item itemvalue="Gradle.LinkedListTest" />
-        <item itemvalue="Gradle.LinkedListTest.testInsertMultipleValues" />
-        <item itemvalue="Gradle.LinkedListTest.testToStringNoValues" />
+        <item itemvalue="Gradle.LinkedListTest.testInsertAfter_ValueInList" />
+        <item itemvalue="Gradle.LinkedListTest.testInsertAfter_ValueNotInList" />
+        <item itemvalue="Gradle.LinkedListTest.testInsertBefore_ValueNotInList" />
+        <item itemvalue="Gradle.LinkedListTest.testInsertBefore_ValueInList" />
+        <item itemvalue="Gradle.LinkedListTest.testAppendMultipleValues" />
       </list>
     </recent_temporary>
   </component>
@@ -222,34 +225,34 @@
       <screen x="0" y="23" width="1440" height="821" />
     </state>
     <state x="429" y="69" key="#code401challenges/0.23.1440.821@0.23.1440.821" timestamp="1578447941677" />
-    <state width="1398" height="242" key="GridCell.Tab.0.bottom" timestamp="1578943473231">
+    <state width="1398" height="242" key="GridCell.Tab.0.bottom" timestamp="1578976002332">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="242" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1578943473231" />
+    <state width="1398" height="242" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1578976002332" />
     <state width="1358" height="198" key="GridCell.Tab.0.bottom/0.23.1440.814@0.23.1440.814" timestamp="1578547536152" />
     <state width="1358" height="198" key="GridCell.Tab.0.bottom/0.23.1440.816@0.23.1440.816" timestamp="1578547657865" />
     <state width="1358" height="248" key="GridCell.Tab.0.bottom/0.23.1440.821@0.23.1440.821" timestamp="1578503402393" />
     <state width="1358" height="199" key="GridCell.Tab.0.bottom/0.23.1440.822@0.23.1440.822" timestamp="1578460029489" />
-    <state width="1398" height="242" key="GridCell.Tab.0.center" timestamp="1578943473230">
+    <state width="1398" height="242" key="GridCell.Tab.0.center" timestamp="1578976002331">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="242" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1578943473230" />
+    <state width="1398" height="242" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1578976002331" />
     <state width="1358" height="198" key="GridCell.Tab.0.center/0.23.1440.814@0.23.1440.814" timestamp="1578547536151" />
     <state width="1358" height="198" key="GridCell.Tab.0.center/0.23.1440.816@0.23.1440.816" timestamp="1578547657864" />
     <state width="1358" height="248" key="GridCell.Tab.0.center/0.23.1440.821@0.23.1440.821" timestamp="1578503402392" />
     <state width="1358" height="199" key="GridCell.Tab.0.center/0.23.1440.822@0.23.1440.822" timestamp="1578460029488" />
-    <state width="1398" height="242" key="GridCell.Tab.0.left" timestamp="1578943473229">
+    <state width="1398" height="242" key="GridCell.Tab.0.left" timestamp="1578976002330">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="242" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1578943473229" />
+    <state width="1398" height="242" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1578976002330" />
     <state width="1358" height="198" key="GridCell.Tab.0.left/0.23.1440.814@0.23.1440.814" timestamp="1578547536151" />
     <state width="1358" height="198" key="GridCell.Tab.0.left/0.23.1440.816@0.23.1440.816" timestamp="1578547657864" />
     <state width="1358" height="248" key="GridCell.Tab.0.left/0.23.1440.821@0.23.1440.821" timestamp="1578503402392" />
     <state width="1358" height="199" key="GridCell.Tab.0.left/0.23.1440.822@0.23.1440.822" timestamp="1578460029488" />
-    <state width="1398" height="242" key="GridCell.Tab.0.right" timestamp="1578943473230">
+    <state width="1398" height="242" key="GridCell.Tab.0.right" timestamp="1578976002331">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="242" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1578943473230" />
+    <state width="1398" height="242" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1578976002331" />
     <state width="1358" height="198" key="GridCell.Tab.0.right/0.23.1440.814@0.23.1440.814" timestamp="1578547536152" />
     <state width="1358" height="198" key="GridCell.Tab.0.right/0.23.1440.816@0.23.1440.816" timestamp="1578547657865" />
     <state width="1358" height="248" key="GridCell.Tab.0.right/0.23.1440.821@0.23.1440.821" timestamp="1578503402393" />
