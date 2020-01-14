@@ -57,3 +57,21 @@ The LinkedList class currently has the following public methods:
   - Takes in no parameters, iterates through the linked list and concatenates the values in a string. At the end of the list returns the string with all the values.
   
 [See Code Here](https://github.com/Rachnicrice/data-structures-and-algorithms/blob/master/code401challenges/src/main/java/code401challenges/LinkedList/LinkedList.java)
+
+## Challenge 05
+The problem domain for this challenge was to create methods that could insert a new Node before or after a Node with the given search value.
+
+## Approach & Efficiency
+Unfortunately because you have to iterate through the linked list until you find the search value that makes the before and after insert methods an O(n) run time.
+
+## API
+The LinkedList class currently has the following public methods:
+ - append
+  - Takes in a string and instantiates a new Node, then appends the new Node to the end of the linked list.
+ - insertBefore
+  - Takes in a string new value and search key and iterates through the linked list until the search key is found, then creates a new Node with the new value and makes the previous Node point to the new Node and the new Node points to the Node with the search key.
+ - insertAfter
+  - Takes in a string new value and search key and iterates through the linked list until the search key is found, then creates a new Node with the new value and makes the current Node point to the new Node, and the new Node point to the current Node.next.
+ 
+[See Code Here](https://github.com/Rachnicrice/data-structures-and-algorithms/blob/array-binary-search/code401challenges/src/main/java/code401challenges/BinarySearch.java)
+![Whiteboard](assets/binary-search.jpg)
