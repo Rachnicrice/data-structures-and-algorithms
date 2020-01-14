@@ -123,6 +123,16 @@ public class LinkedListTest {
         Assert.assertEquals("b", testList.head.next.value);
     }
 
+    @Test
+    public void testInsertBefore_FirstValue () {
+        LinkedList testList = new LinkedList();
+        testList.insert("a");
+        testList.insert("c");
+        testList.insertBefore("c", "b");
+        
+        Assert.assertEquals("b", testList.head.value);
+    }
+
     @Test (expected = NoSuchElementException.class)
     //This test will fail and throw the NoSuchElementException
     public void testInsertBefore_ValueNotInList () {
