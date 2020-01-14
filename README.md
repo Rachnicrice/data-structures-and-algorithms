@@ -74,4 +74,4 @@ The LinkedList class currently has the following public methods:
   - Takes in a string new value and search key and iterates through the linked list until the search key is found, then creates a new Node with the new value and makes the current Node point to the new Node, and the new Node point to the current Node.next.
  
 [See Code Here](https://github.com/Rachnicrice/data-structures-and-algorithms/blob/array-binary-search/code401challenges/src/main/java/code401challenges/BinarySearch.java)
-![Whiteboard](assets/binary-search.jpg)
+![Whiteboard](assets/appendll.jpg)
