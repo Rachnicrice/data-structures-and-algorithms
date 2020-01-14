@@ -6,8 +6,8 @@ public class Node {
     Node next;
 
     //Constructor for Node Class
-    Node(String letter) {
-        this.value = letter.toLowerCase();
+    Node(String value) {
+        this.value = value.toLowerCase();
         this.next = null;
     }
 
