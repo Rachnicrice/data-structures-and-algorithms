@@ -129,7 +129,7 @@ public class LinkedListTest {
         testList.insert("a");
         testList.insert("c");
         testList.insertBefore("c", "b");
-        
+
         Assert.assertEquals("b", testList.head.value);
     }
 
@@ -162,5 +162,15 @@ public class LinkedListTest {
         testList.insertAfter("z", "b");
 
         Assert.assertEquals("c", testList.head.next.value);
+    }
+
+    @Test
+    public void testInsertAfter_LastValue () {
+        LinkedList testList = new LinkedList();
+        testList.append("a");
+        testList.append("c");
+        testList.insertAfter("c", "b");
+
+        Assert.assertEquals("b", testList.head.next.next.value);
     }
 }
