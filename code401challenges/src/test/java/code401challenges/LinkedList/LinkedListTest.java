@@ -194,12 +194,31 @@ public class LinkedListTest {
         Assert.assertEquals("c", actual);
     }
 
-    @Test (expected = NoSuchElementException.class)
+    @Test
     public void testLlKthFromEnd_KSameAsListLength () {
         LinkedList testList = new LinkedList();
         testList.insert("a");
         testList.append("c");
         String actual = testList.llKthFromEnd(2);
+
+        Assert.assertEquals("c", actual);
+    }
+
+    @Test (expected = NoSuchElementException.class)
+    public void testLlKthFromEnd_KIsANegativeInteger () {
+        LinkedList testList = new LinkedList();
+        testList.insert("a");
+        testList.append("c");
+        String actual = testList.llKthFromEnd(-1);
+
+        Assert.assertEquals("a", actual);
+    }
+
+    @Test
+    public void testLlKthFromEnd_ListSizeOne () {
+        LinkedList testList = new LinkedList();
+        testList.insert("a");
+        String actual = testList.llKthFromEnd(0);
 
         Assert.assertEquals("a", actual);
     }
