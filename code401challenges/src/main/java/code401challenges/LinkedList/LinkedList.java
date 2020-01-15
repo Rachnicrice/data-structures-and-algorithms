@@ -113,8 +113,29 @@ public class LinkedList {
         }
     }
 
-    public void llKthFromEnd () {
+    public int size () {
+        int numberOfNodes = 0;
+        Node currentNode = this.head;
 
+        while (currentNode != null) {
+            numberOfNodes++;
+            currentNode = currentNode.next;
+        }
+        return numberOfNodes;
+    }
+
+    public String llKthFromEnd (int k) {
+        Node currentNode = this.head;
+        String wantedNodeValue = "";
+        int kNodeLocation = this.size() - k;
+
+        if (kNodeLocation > 0) {
+            for(int i = 1; i < k; i++) {
+                currentNode = currentNode.next;
+            }
+            wantedNodeValue = currentNode.value;
+        }
+        return wantedNodeValue;
     }
 
 }

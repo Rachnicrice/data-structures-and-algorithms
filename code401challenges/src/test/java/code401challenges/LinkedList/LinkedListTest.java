@@ -179,7 +179,7 @@ public class LinkedListTest {
         LinkedList testList = new LinkedList();
         testList.insert("a");
         testList.append("c");
-        testList.llKthFromEnd();
+        testList.llKthFromEnd(0);
 
         Assert.assertEquals("c", testList.head.next.value);
     }
