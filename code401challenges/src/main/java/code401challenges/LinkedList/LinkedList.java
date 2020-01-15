@@ -129,7 +129,7 @@ public class LinkedList {
         String wantedNodeValue = "";
         int kNodeLocation = this.size() - k;
 
-        if (kNodeLocation > 0) {
+        if (kNodeLocation >= 0) {
             for(int i = 1; i < k; i++) {
                 currentNode = currentNode.next;
             }
