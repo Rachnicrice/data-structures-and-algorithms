@@ -73,20 +73,18 @@ public class LinkedList {
         Node currentNode = this.head;
 
         while (currentNode !=null) {
+
             if (currentNode.value.equals(searchVal)){
                 Node newNode = new Node(newVal);
-
                 if (currentNode == this.head) {
                     newNode.next = currentNode.next;
                     this.head = newNode;
-                    break;
+                } else {
+                    newNode.next = lastNode.next;
+                    lastNode.next = newNode;
                 }
-
-                newNode.next = lastNode.next;
-                lastNode.next = newNode;
                 break;
             }
-
             lastNode = currentNode;
             currentNode = currentNode.next;
         }
@@ -113,6 +111,34 @@ public class LinkedList {
         if (currentNode == null) {
             throw new NoSuchElementException("Search Value not included in List");
         }
+    }
+
+    public int size () {
+        int numberOfNodes = 0;
+        Node currentNode = this.head;
+
+        while (currentNode != null) {
+            numberOfNodes++;
+            currentNode = currentNode.next;
+        }
+        return numberOfNodes;
+    }
+
+    public String llKthFromEnd (int k) {
+        Node currentNode = this.head;
+        String wantedNodeValue = "";
+        int kNodeLocation = this.size() - k;
+
+        if (kNodeLocation > 0) {
+            for(int i = 1; i < k; i++) {
+                currentNode = currentNode.next;
+            }
+            wantedNodeValue = currentNode.value;
+        } else {
+            throw new NoSuchElementException("Input k cannot be greater than list length");
+        }
+
+        return wantedNodeValue;
     }
 
 }
