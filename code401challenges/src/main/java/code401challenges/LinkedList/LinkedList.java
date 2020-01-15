@@ -134,7 +134,10 @@ public class LinkedList {
                 currentNode = currentNode.next;
             }
             wantedNodeValue = currentNode.value;
+        } else {
+            throw new NoSuchElementException("Input k cannot be greater than list length");
         }
+
         return wantedNodeValue;
     }
 

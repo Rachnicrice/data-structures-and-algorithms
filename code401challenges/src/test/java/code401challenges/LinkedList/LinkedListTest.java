@@ -179,8 +179,28 @@ public class LinkedListTest {
         LinkedList testList = new LinkedList();
         testList.insert("a");
         testList.append("c");
-        testList.llKthFromEnd(0);
+        String actual = testList.llKthFromEnd(0);
 
-        Assert.assertEquals("c", testList.head.next.value);
+        Assert.assertEquals("a", actual);
+    }
+
+    @Test (expected = NoSuchElementException.class)
+    public void testLlKthFromEnd_KGreaterThanListLength () {
+        LinkedList testList = new LinkedList();
+        testList.insert("a");
+        testList.append("c");
+        String actual = testList.llKthFromEnd(4);
+
+        Assert.assertEquals("c", actual);
+    }
+
+    @Test (expected = NoSuchElementException.class)
+    public void testLlKthFromEnd_KSameAsListLength () {
+        LinkedList testList = new LinkedList();
+        testList.insert("a");
+        testList.append("c");
+        String actual = testList.llKthFromEnd(2);
+
+        Assert.assertEquals("a", actual);
     }
 }
