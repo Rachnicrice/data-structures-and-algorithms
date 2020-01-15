@@ -73,20 +73,18 @@ public class LinkedList {
         Node currentNode = this.head;
 
         while (currentNode !=null) {
+
             if (currentNode.value.equals(searchVal)){
                 Node newNode = new Node(newVal);
-
                 if (currentNode == this.head) {
                     newNode.next = currentNode.next;
                     this.head = newNode;
-                    break;
+                } else {
+                    newNode.next = lastNode.next;
+                    lastNode.next = newNode;
                 }
-
-                newNode.next = lastNode.next;
-                lastNode.next = newNode;
                 break;
             }
-
             lastNode = currentNode;
             currentNode = currentNode.next;
         }

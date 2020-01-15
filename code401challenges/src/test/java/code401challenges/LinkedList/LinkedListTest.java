@@ -117,7 +117,7 @@ public class LinkedListTest {
     public void testInsertBefore_ValueInList () {
         LinkedList testList = new LinkedList();
         testList.insert("a");
-        testList.insert("c");
+        testList.append("c");
         testList.insertBefore("c", "b");
 
         Assert.assertEquals("b", testList.head.next.value);
