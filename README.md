@@ -80,7 +80,7 @@ The LinkedList class currently has the following public methods:
 The problem domain for this challenge was to create a method that took in a number (k) and returned the value of the Node kth from the end of the linked list.
 
 ## Approach & Efficiency
-Because signly linked lists only point to the next node in the list there is unfortunately no way to loop backwards.
+Because signly linked lists only point to the next node in the list there is unfortunately no way to loop backwards. Because of this it is an O(n) efficiency.
 
 ## API
 The LinkedList class currently has the following public methods:
@@ -89,4 +89,4 @@ The LinkedList class currently has the following public methods:
  
  
 [See Code Here](https://github.com/Rachnicrice/data-structures-and-algorithms/blob/master/code401challenges/src/main/java/code401challenges/LinkedList/LinkedList.java)
-![Whiteboard](assets/.jpg)
+![Whiteboard](assets/llkthfromend.jpg)
