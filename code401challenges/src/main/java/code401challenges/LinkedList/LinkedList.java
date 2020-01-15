@@ -113,4 +113,8 @@ public class LinkedList {
         }
     }
 
+    public void llKthFromEnd () {
+
+    }
+
 }

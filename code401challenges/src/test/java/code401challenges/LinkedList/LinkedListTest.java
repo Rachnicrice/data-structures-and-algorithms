@@ -173,4 +173,14 @@ public class LinkedListTest {
 
         Assert.assertEquals("b", testList.head.next.next.value);
     }
+
+    @Test
+    public void testLlKthFromEnd () {
+        LinkedList testList = new LinkedList();
+        testList.insert("a");
+        testList.append("c");
+        testList.llKthFromEnd();
+
+        Assert.assertEquals("c", testList.head.next.value);
+    }
 }
