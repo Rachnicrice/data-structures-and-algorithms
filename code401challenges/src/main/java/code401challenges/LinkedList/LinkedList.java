@@ -141,4 +141,23 @@ public class LinkedList {
         return wantedNodeValue;
     }
 
+    public static Node mergeList (LinkedList a, LinkedList b) {
+        Node listANode = a.head;
+        Node listBNode = b.head;
+
+        if (listANode == null) {
+            listANode = listBNode;
+            return listANode;
+        }
+
+        while (listANode.next != null && listBNode != null) {
+                listBNode.next = listANode.next;
+                listANode.next = listBNode;
+
+                listANode = listANode.next;
+                listBNode = listBNode.next;
+        }
+        return a.head;
+    }
+
 }

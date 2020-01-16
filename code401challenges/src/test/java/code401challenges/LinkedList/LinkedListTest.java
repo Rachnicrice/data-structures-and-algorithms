@@ -222,4 +222,20 @@ public class LinkedListTest {
 
         Assert.assertEquals("a", actual);
     }
+
+    @Test
+    public void testMergeList() {
+        LinkedList testListA = new LinkedList();
+        testListA.insert("a");
+        testListA.append("c");
+        testListA.append("e");
+
+        LinkedList testListB = new LinkedList();
+        testListB.insert("b");
+        testListB.append("d");
+        testListB.append("f");
+
+        Node actual = LinkedList.mergeList(testListA, testListB);
+
+    }
 }
