@@ -76,7 +76,7 @@ The LinkedList class currently has the following public methods:
 [See Code Here](https://github.com/Rachnicrice/data-structures-and-algorithms/blob/master/code401challenges/src/main/java/code401challenges/LinkedList/LinkedList.java)
 ![Whiteboard](assets/appendll.jpg)
 
-## Challenge 05
+## Challenge 06
 The problem domain for this challenge was to create a method that took in a number (k) and returned the value of the Node kth from the end of the linked list.
 
 ## Approach & Efficiency
@@ -90,3 +90,19 @@ The LinkedList class currently has the following public methods:
  
 [See Code Here](https://github.com/Rachnicrice/data-structures-and-algorithms/blob/master/code401challenges/src/main/java/code401challenges/LinkedList/LinkedList.java)
 ![Whiteboard](assets/llkthfromend.jpg)
+
+
+## Challenge 07
+The problem domain for this challenge was to create a method that took in two linked lists and merged them together, returning the head node of the newly merged list.
+
+## Approach & Efficiency
+Because I had to loop through each of the values in the list in order to make re-point the nodes of the two singly-linked lists, my solution has an O(n) runtime. However since I did not allocate any memory to making a new list it has O(1) space complexity.
+
+## API
+The LinkedList class currently has the following public methods:
+ - mergeList
+  - Takes in two linked lists as parameters, repoints the Nodes to join the lists together and returns a reference to the head Node.
+ 
+ 
+[See Code Here](https://github.com/Rachnicrice/data-structures-and-algorithms/blob/master/code401challenges/src/main/java/code401challenges/LinkedList/LinkedList.java)
+![Whiteboard](assets/llmerge.jpg)
