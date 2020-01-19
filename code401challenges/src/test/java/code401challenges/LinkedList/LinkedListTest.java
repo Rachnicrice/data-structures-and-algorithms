@@ -235,7 +235,8 @@ public class LinkedListTest {
         testListB.append("d");
         testListB.append("f");
 
-        Node actual = LinkedList.mergeList(testListA, testListB);
+        LinkedList actual = LinkedList.mergeList(testListA, testListB);
 
+        Assert.assertEquals("b", actual.head.next.value);
     }
 }
