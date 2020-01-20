@@ -30,5 +30,14 @@ public class QueueTest {
         input.enqueue("b");
         Assert.assertEquals("a", input.front.value);
         Assert.assertEquals("b", input.back.value);
+        Assert.assertEquals("b", input.front.next.value);
+    }
+
+    @Test
+    public void testDequeue_OneValueInQueue () {
+        input.enqueue("a");
+        Assert.assertEquals("a", input.dequeue());
+        Assert.assertEquals(null, input.front);
+        Assert.assertEquals(null, input.back);
     }
 }
