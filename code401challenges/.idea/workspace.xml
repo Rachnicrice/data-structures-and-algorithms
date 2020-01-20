@@ -3,8 +3,11 @@
   <component name="ChangeListManager">
     <list default="true" id="56a9d471-70c8-4a3f-a446-5067bad9a39c" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/code401challenges/LinkedList/LinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/code401challenges/LinkedList/LinkedList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/code401challenges/LinkedList/LinkedListTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/code401challenges/LinkedList/LinkedListTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/stacksAndQueues/Queue.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/stacksAndQueues/Queue.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/stacksAndQueues/Stack.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/stacksAndQueues/Stack.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/stacksAndQueues/NodeTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/stacksAndQueues/NodeTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/stacksAndQueues/QueueTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/stacksAndQueues/QueueTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/stacksAndQueues/StackTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/stacksAndQueues/StackTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -81,13 +84,13 @@
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
   </component>
-  <component name="RunManager" selected="Gradle.LinkedListTest.testMergeList">
-    <configuration name="LinkedListTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+  <component name="RunManager" selected="Gradle.QueueTest.testDequeue_MultipleValuesInQueue">
+    <configuration name="QueueTest.testDequeue_EmptyQueue" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;code401challenges.LinkedList.LinkedListTest&quot;" />
+        <option name="scriptParameters" value="--tests &quot;stacksAndQueues.QueueTest.testDequeue_EmptyQueue&quot;" />
         <option name="taskDescriptions">
           <list />
         </option>
@@ -102,12 +105,12 @@
       <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="LinkedListTest.testLlKthFromEnd_KGreaterThanListLength" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="QueueTest.testDequeue_MultipleValuesInQueue" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;code401challenges.LinkedList.LinkedListTest.testLlKthFromEnd_KGreaterThanListLength&quot;" />
+        <option name="scriptParameters" value="--tests &quot;stacksAndQueues.QueueTest.testDequeue_MultipleValuesInQueue&quot;" />
         <option name="taskDescriptions">
           <list />
         </option>
@@ -122,12 +125,12 @@
       <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="LinkedListTest.testLlKthFromEnd_KIsANegativeInteger" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="QueueTest.testPeek_EmptyQueue" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;code401challenges.LinkedList.LinkedListTest.testLlKthFromEnd_KIsANegativeInteger&quot;" />
+        <option name="scriptParameters" value="--tests &quot;stacksAndQueues.QueueTest.testPeek_EmptyQueue&quot;" />
         <option name="taskDescriptions">
           <list />
         </option>
@@ -142,12 +145,12 @@
       <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="LinkedListTest.testLlKthFromEnd_ListSizeOne" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="StackTest.testPeek_EmptyStack" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;code401challenges.LinkedList.LinkedListTest.testLlKthFromEnd_ListSizeOne&quot;" />
+        <option name="scriptParameters" value="--tests &quot;stacksAndQueues.StackTest.testPeek_EmptyStack&quot;" />
         <option name="taskDescriptions">
           <list />
         </option>
@@ -162,12 +165,12 @@
       <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="LinkedListTest.testMergeList" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="StackTest.testPop_EmptyQueue" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;code401challenges.LinkedList.LinkedListTest.testMergeList&quot;" />
+        <option name="scriptParameters" value="--tests &quot;stacksAndQueues.StackTest.testPop_EmptyQueue&quot;" />
         <option name="taskDescriptions">
           <list />
         </option>
@@ -184,11 +187,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Gradle.LinkedListTest.testMergeList" />
-        <item itemvalue="Gradle.LinkedListTest.testLlKthFromEnd_ListSizeOne" />
-        <item itemvalue="Gradle.LinkedListTest" />
-        <item itemvalue="Gradle.LinkedListTest.testLlKthFromEnd_KIsANegativeInteger" />
-        <item itemvalue="Gradle.LinkedListTest.testLlKthFromEnd_KGreaterThanListLength" />
+        <item itemvalue="Gradle.QueueTest.testDequeue_MultipleValuesInQueue" />
+        <item itemvalue="Gradle.QueueTest.testPeek_EmptyQueue" />
+        <item itemvalue="Gradle.QueueTest.testDequeue_EmptyQueue" />
+        <item itemvalue="Gradle.StackTest.testPeek_EmptyStack" />
+        <item itemvalue="Gradle.StackTest.testPop_EmptyQueue" />
       </list>
     </recent_temporary>
   </component>
@@ -235,62 +238,70 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="533" y="166" key="#com.intellij.ide.util.MemberChooser/0.0.1440.900@0.0.1440.900" timestamp="1579109368096" />
-    <state width="1440" height="248" key="GridCell.Tab.0.bottom" timestamp="1579395791670">
+    <state width="1440" height="248" key="GridCell.Tab.0.bottom" timestamp="1579548823211">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1440" height="248" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1579395791670" />
+    <state width="1440" height="248" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1579548823211" />
     <state width="1358" height="198" key="GridCell.Tab.0.bottom/0.23.1440.814@0.23.1440.814" timestamp="1578547536152" />
     <state width="1358" height="198" key="GridCell.Tab.0.bottom/0.23.1440.816@0.23.1440.816" timestamp="1578547657865" />
     <state width="1358" height="248" key="GridCell.Tab.0.bottom/0.23.1440.821@0.23.1440.821" timestamp="1578503402393" />
     <state width="1358" height="199" key="GridCell.Tab.0.bottom/0.23.1440.822@0.23.1440.822" timestamp="1578460029489" />
-    <state width="1440" height="248" key="GridCell.Tab.0.center" timestamp="1579395791669">
+    <state width="1440" height="248" key="GridCell.Tab.0.center" timestamp="1579548823210">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1440" height="248" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1579395791669" />
+    <state width="1440" height="248" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1579548823210" />
     <state width="1358" height="198" key="GridCell.Tab.0.center/0.23.1440.814@0.23.1440.814" timestamp="1578547536151" />
     <state width="1358" height="198" key="GridCell.Tab.0.center/0.23.1440.816@0.23.1440.816" timestamp="1578547657864" />
     <state width="1358" height="248" key="GridCell.Tab.0.center/0.23.1440.821@0.23.1440.821" timestamp="1578503402392" />
     <state width="1358" height="199" key="GridCell.Tab.0.center/0.23.1440.822@0.23.1440.822" timestamp="1578460029488" />
-    <state width="1440" height="248" key="GridCell.Tab.0.left" timestamp="1579395791669">
+    <state width="1440" height="248" key="GridCell.Tab.0.left" timestamp="1579548823210">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1440" height="248" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1579395791669" />
+    <state width="1440" height="248" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1579548823210" />
     <state width="1358" height="198" key="GridCell.Tab.0.left/0.23.1440.814@0.23.1440.814" timestamp="1578547536151" />
     <state width="1358" height="198" key="GridCell.Tab.0.left/0.23.1440.816@0.23.1440.816" timestamp="1578547657864" />
     <state width="1358" height="248" key="GridCell.Tab.0.left/0.23.1440.821@0.23.1440.821" timestamp="1578503402392" />
     <state width="1358" height="199" key="GridCell.Tab.0.left/0.23.1440.822@0.23.1440.822" timestamp="1578460029488" />
-    <state width="1440" height="248" key="GridCell.Tab.0.right" timestamp="1579395791670">
+    <state width="1440" height="248" key="GridCell.Tab.0.right" timestamp="1579548823211">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1440" height="248" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1579395791670" />
+    <state width="1440" height="248" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1579548823211" />
     <state width="1358" height="198" key="GridCell.Tab.0.right/0.23.1440.814@0.23.1440.814" timestamp="1578547536152" />
     <state width="1358" height="198" key="GridCell.Tab.0.right/0.23.1440.816@0.23.1440.816" timestamp="1578547657865" />
     <state width="1358" height="248" key="GridCell.Tab.0.right/0.23.1440.821@0.23.1440.821" timestamp="1578503402393" />
     <state width="1358" height="199" key="GridCell.Tab.0.right/0.23.1440.822@0.23.1440.822" timestamp="1578460029489" />
-    <state width="1358" height="248" key="GridCell.Tab.1.bottom" timestamp="1578503402394">
-      <screen x="0" y="23" width="1440" height="821" />
+    <state width="1440" height="311" key="GridCell.Tab.1.bottom" timestamp="1579540854673">
+      <screen x="0" y="0" width="1440" height="900" />
     </state>
+    <state width="1440" height="311" key="GridCell.Tab.1.bottom/0.0.1440.900@0.0.1440.900" timestamp="1579540854673" />
     <state width="1358" height="248" key="GridCell.Tab.1.bottom/0.23.1440.821@0.23.1440.821" timestamp="1578503402394" />
     <state width="1358" height="248" key="GridCell.Tab.1.bottom/0.23.1440.822@0.23.1440.822" timestamp="1578459904158" />
-    <state width="1358" height="248" key="GridCell.Tab.1.center" timestamp="1578503402394">
-      <screen x="0" y="23" width="1440" height="821" />
+    <state width="1440" height="311" key="GridCell.Tab.1.center" timestamp="1579540854672">
+      <screen x="0" y="0" width="1440" height="900" />
     </state>
+    <state width="1440" height="311" key="GridCell.Tab.1.center/0.0.1440.900@0.0.1440.900" timestamp="1579540854672" />
     <state width="1358" height="248" key="GridCell.Tab.1.center/0.23.1440.821@0.23.1440.821" timestamp="1578503402394" />
     <state width="1358" height="248" key="GridCell.Tab.1.center/0.23.1440.822@0.23.1440.822" timestamp="1578459904157" />
-    <state width="1358" height="248" key="GridCell.Tab.1.left" timestamp="1578503402393">
-      <screen x="0" y="23" width="1440" height="821" />
+    <state width="1440" height="311" key="GridCell.Tab.1.left" timestamp="1579540854671">
+      <screen x="0" y="0" width="1440" height="900" />
     </state>
+    <state width="1440" height="311" key="GridCell.Tab.1.left/0.0.1440.900@0.0.1440.900" timestamp="1579540854671" />
     <state width="1358" height="248" key="GridCell.Tab.1.left/0.23.1440.821@0.23.1440.821" timestamp="1578503402393" />
     <state width="1358" height="248" key="GridCell.Tab.1.left/0.23.1440.822@0.23.1440.822" timestamp="1578459904157" />
-    <state width="1358" height="248" key="GridCell.Tab.1.right" timestamp="1578503402394">
-      <screen x="0" y="23" width="1440" height="821" />
+    <state width="1440" height="311" key="GridCell.Tab.1.right" timestamp="1579540854672">
+      <screen x="0" y="0" width="1440" height="900" />
     </state>
+    <state width="1440" height="311" key="GridCell.Tab.1.right/0.0.1440.900@0.0.1440.900" timestamp="1579540854672" />
     <state width="1358" height="248" key="GridCell.Tab.1.right/0.23.1440.821@0.23.1440.821" timestamp="1578503402394" />
     <state width="1358" height="248" key="GridCell.Tab.1.right/0.23.1440.822@0.23.1440.822" timestamp="1578459904157" />
     <state x="515" y="220" key="chooseDestDirectoryDialog" timestamp="1578448222297">
       <screen x="0" y="23" width="1440" height="816" />
     </state>
     <state x="515" y="220" key="chooseDestDirectoryDialog/0.23.1440.816@0.23.1440.816" timestamp="1578448222297" />
+    <state x="399" y="282" key="com.intellij.ide.util.TipDialog" timestamp="1579539810197">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="399" y="282" key="com.intellij.ide.util.TipDialog/0.0.1440.900@0.0.1440.900" timestamp="1579539810197" />
     <state x="432" y="336" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD" timestamp="1578448311797">
       <screen x="0" y="23" width="1440" height="816" />
     </state>
@@ -299,6 +310,10 @@
       <screen x="0" y="23" width="1440" height="821" />
     </state>
     <state x="385" y="198" width="670" height="675" key="run.anything.popup/0.23.1440.821@0.23.1440.821" timestamp="1578448144215" />
+    <state x="385" y="196" width="670" height="676" key="search.everywhere.popup" timestamp="1579540782136">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="385" y="196" width="670" height="676" key="search.everywhere.popup/0.0.1440.900@0.0.1440.900" timestamp="1579540782136" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
