@@ -30,4 +30,9 @@ public class StackTest {
         Assert.assertEquals("a", actual);
         Assert.assertEquals(null, input.top);
     }
+
+    @Test
+    public void testPeek () {
+        Assert.assertEquals("a", input.peek());
+    }
 }

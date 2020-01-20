@@ -22,5 +22,13 @@ public class Stack {
         return value;
     }
 
+    public String peek () {
+        if (this.top != null) {
+            return this.top.value;
+        } else {
+            return null;
+        }
+    }
+
 
 }
