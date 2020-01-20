@@ -1,5 +1,7 @@
 package stacksAndQueues;
 
+import java.util.NoSuchElementException;
+
 public class Stack {
     //instance variables
     Node top;
@@ -16,17 +18,20 @@ public class Stack {
         this.top = node;
     }
 
-    public String pop () {
+    public String pop () throws NoSuchElementException {
+        if (this.top == null) {
+            throw new NoSuchElementException("Cannot perform pop() on empty stack");
+        }
         String value = this.top.value;
         this.top = this.top.next;
         return value;
     }
 
-    public String peek () {
+    public String peek () throws NoSuchElementException{
         if (this.top != null) {
             return this.top.value;
         } else {
-            return null;
+            throw new NoSuchElementException("Cannot perform peek() on empty stack");
         }
     }
 

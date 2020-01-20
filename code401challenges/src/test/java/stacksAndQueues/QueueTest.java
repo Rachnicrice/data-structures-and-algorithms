@@ -4,6 +4,8 @@ import org.junit.Assert;
 import org.junit.Before;
 import org.junit.Test;
 
+import java.util.NoSuchElementException;
+
 public class QueueTest {
     Queue input;
 
@@ -55,6 +57,24 @@ public class QueueTest {
     }
 
     @Test
+    public void testDequeue_MultipleValuesInQueue () {
+        input.enqueue("a");
+        input.enqueue("b");
+        input.enqueue("c");
+
+        Assert.assertEquals("a", input.dequeue());
+        Assert.assertEquals("b", input.dequeue());
+        Assert.assertEquals("c", input.dequeue());
+        Assert.assertEquals(null, input.front);
+        Assert.assertEquals(null, input.back);
+    }
+
+    @Test (expected = NoSuchElementException.class)
+    public void testDequeue_EmptyQueue () {
+        Assert.assertEquals(null, input.dequeue());
+    }
+
+    @Test (expected = NoSuchElementException.class)
     public void testPeek_EmptyQueue () {
         Assert.assertEquals(null, input.peek());
     }

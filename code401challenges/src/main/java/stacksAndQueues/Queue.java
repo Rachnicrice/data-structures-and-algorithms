@@ -1,5 +1,7 @@
 package stacksAndQueues;
 
+import java.util.NoSuchElementException;
+
 public class Queue {
     //instance variables
     Node front;
@@ -26,20 +28,24 @@ public class Queue {
         this.back = node;
     }
 
-    public String dequeue () {
-        String value = this.front.value;
-        if (this.front == this.back) {
-            this.back = null;
+    public String dequeue () throws NoSuchElementException {
+        if (this.front == null) {
+            throw new NoSuchElementException("Cannot dequeue() empty queue");
+        } else {
+            String value = this.front.value;
+            if (this.front == this.back) {
+                this.back = null;
+            }
+            this.front = this.front.next;
+            return value;
         }
-        this.front = this.front.next;
-        return value;
     }
 
-    public String peek () {
+    public String peek () throws NoSuchElementException {
         if (this.front != null) {
             return this.front.value;
         } else {
-            return null;
+            throw new NoSuchElementException("Cannot peek() empty queue");
         }
     }
 
