@@ -1,4 +1,4 @@
-package stacksAndQueues;
+package code401challenges.stacksAndQueues;
 
 import org.junit.Assert;
 import org.junit.Before;

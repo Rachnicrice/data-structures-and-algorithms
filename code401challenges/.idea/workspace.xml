@@ -2,12 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="56a9d471-70c8-4a3f-a446-5067bad9a39c" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/stacksAndQueues/Queue.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/stacksAndQueues/Queue.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/stacksAndQueues/Stack.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/stacksAndQueues/Stack.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/stacksAndQueues/NodeTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/stacksAndQueues/NodeTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/stacksAndQueues/QueueTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/stacksAndQueues/QueueTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/stacksAndQueues/StackTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/stacksAndQueues/StackTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/stacksAndQueues/Node.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/code401challenges/stacksAndQueues/Node.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/stacksAndQueues/Queue.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/code401challenges/stacksAndQueues/Queue.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/stacksAndQueues/Stack.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/code401challenges/stacksAndQueues/Stack.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/stacksAndQueues/NodeTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/code401challenges/stacksAndQueues/NodeTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/stacksAndQueues/QueueTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/code401challenges/stacksAndQueues/QueueTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/stacksAndQueues/StackTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/code401challenges/stacksAndQueues/StackTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -238,6 +238,10 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="533" y="166" key="#com.intellij.ide.util.MemberChooser/0.0.1440.900@0.0.1440.900" timestamp="1579109368096" />
+    <state x="170" y="382" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1579549886219">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="170" y="382" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.0.1440.900@0.0.1440.900" timestamp="1579549886219" />
     <state width="1440" height="248" key="GridCell.Tab.0.bottom" timestamp="1579548823211">
       <screen x="0" y="0" width="1440" height="900" />
     </state>

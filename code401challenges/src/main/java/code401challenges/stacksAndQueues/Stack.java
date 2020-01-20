@@ -1,4 +1,4 @@
-package stacksAndQueues;
+package code401challenges.stacksAndQueues;
 
 import java.util.NoSuchElementException;
 
