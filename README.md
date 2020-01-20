@@ -106,3 +106,36 @@ The LinkedList class currently has the following public methods:
  
 [See Code Here](https://github.com/Rachnicrice/data-structures-and-algorithms/blob/master/code401challenges/src/main/java/code401challenges/LinkedList/LinkedList.java)
 ![Whiteboard](assets/llmerge.jpg)
+
+
+# Stacks and Queues
+The following code challenges all use stacks and queues.
+
+## Challenge 08
+The problem domain for this challenge was to create pop/push methods on a stack and enqueue/dequeue methods on a queue that inserted or removed an element with an O(1) run time.
+
+## Approach & Efficiency
+In order to achieve a O(1) run time I did not loop through any of the data structures, for a stack I simply repointed the top value when a node was pushed or popped, and for the queue after the first insertion (for which I had to point the front value) I either repointed the back value (enqueue) or repointed the front value (dequeue).
+
+## API
+The Stack class currently has the following public methods:
+ - push
+  - Takes in a string and instantiates a new Node, then inserts the new Node at the top of the stack.
+ - pop
+  - Takes in no parameters, removes the top Node from the stack and repoints the top to the next Node in the stack.
+ - peek
+  - Takes in no parameters, returns the value of the top node in the stack.
+ - isEmpty
+  - Takes in no parameters, returns true is the stack is empty and false if it is not.
+  
+  The Queue class currently has the following public methods:
+ - enqueue
+  - Takes in a string and instantiates a new Node, then inserts the new Node at the back of the queue.
+ - dequeue
+  - Takes in no parameters, removes the front Node from the stack and repoints the front to the next Node in the queue.
+ - peek
+  - Takes in no parameters, returns the value of the front node in the queue.
+ - isEmpty
+  - Takes in no parameters, returns true is the queue is empty and false if it is not.
+  
+[See Code Here](https://github.com/Rachnicrice/data-structures-and-algorithms/blob/master/code401challenges/src/main/java/code401challenges/)
