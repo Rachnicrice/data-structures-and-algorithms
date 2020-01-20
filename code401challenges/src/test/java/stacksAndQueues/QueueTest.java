@@ -72,4 +72,15 @@ public class QueueTest {
         input.enqueue("c");
         Assert.assertEquals("a", input.peek());
     }
+
+    @Test
+    public void testIsEmpty_EmptyQueue () {
+        Assert.assertTrue(input.isEmpty());
+    }
+
+    @Test
+    public void testIsEmpty_OneValueInQueue () {
+        input.enqueue("a");
+        Assert.assertFalse(input.isEmpty());
+    }
 }
