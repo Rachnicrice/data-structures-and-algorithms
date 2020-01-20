@@ -34,10 +34,42 @@ public class QueueTest {
     }
 
     @Test
+    public void testEnqueue_MultipleValuesInQueue () {
+        input.enqueue("a");
+        input.enqueue("b");
+        input.enqueue("c");
+
+        //Checking that the pointers are behaving as expected
+        Assert.assertEquals("a", input.front.value);
+        Assert.assertEquals("b", input.front.next.value);
+        Assert.assertEquals("c", input.front.next.next.value);
+        Assert.assertEquals("c", input.back.value);
+    }
+
+    @Test
     public void testDequeue_OneValueInQueue () {
         input.enqueue("a");
         Assert.assertEquals("a", input.dequeue());
         Assert.assertEquals(null, input.front);
         Assert.assertEquals(null, input.back);
+    }
+
+    @Test
+    public void testPeek_EmptyQueue () {
+        Assert.assertEquals(null, input.peek());
+    }
+
+    @Test
+    public void testPeek_OneValueInQueue () {
+        input.enqueue("a");
+        Assert.assertEquals("a", input.peek());
+    }
+
+    @Test
+    public void testPeek_MultipleValuesInQueue () {
+        input.enqueue("a");
+        input.enqueue("b");
+        input.enqueue("c");
+        Assert.assertEquals("a", input.peek());
     }
 }

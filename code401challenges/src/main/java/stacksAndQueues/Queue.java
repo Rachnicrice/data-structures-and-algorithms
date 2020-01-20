@@ -34,4 +34,12 @@ public class Queue {
         this.front = this.front.next;
         return value;
     }
+
+    public String peek () {
+        if (this.front != null) {
+            return this.front.value;
+        } else {
+            return null;
+        }
+    }
 }
