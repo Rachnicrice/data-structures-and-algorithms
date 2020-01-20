@@ -35,4 +35,15 @@ public class StackTest {
     public void testPeek () {
         Assert.assertEquals("a", input.peek());
     }
+
+    @Test
+    public void testIsEmpty () {
+        Assert.assertFalse(input.isEmpty());
+    }
+
+    @Test
+    public void testIsEmpty_EmptyStack () {
+        input.pop();
+        Assert.assertTrue(input.isEmpty());
+    }
 }

@@ -30,5 +30,9 @@ public class Stack {
         }
     }
 
+    public Boolean isEmpty () {
+        return this.top == null ? true : false;
+    }
+
 
 }
