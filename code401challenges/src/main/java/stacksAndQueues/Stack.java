@@ -15,4 +15,12 @@ public class Stack {
         node.next = this.top;
         this.top = node;
     }
+
+    public String pop () {
+        String value = this.top.value;
+        this.top = this.top.next;
+        return value;
+    }
+
+
 }
