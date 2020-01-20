@@ -1,4 +1,4 @@
-package stacksAndQueues;
+package code401challenges.stacksAndQueues;
 
 public class Node {
     //instance variables
