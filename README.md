@@ -139,3 +139,19 @@ The Stack class currently has the following public methods:
   - Takes in no parameters, returns true is the queue is empty and false if it is not.
   
 [See Code Here](https://github.com/Rachnicrice/data-structures-and-algorithms/tree/master/code401challenges/src/main/java/code401challenges/stacksAndQueues)
+
+## Challenge 09
+The problem domain for this challenge was to create a queue that uses stack objects to enqueue and dequeue.
+
+## Approach & Efficiency
+In order to maintain a node at the top of the stack (so that the node would remain at the 'front' of the queue, I had to flip all the stack values onto a different stack and then back. This method of enqueue is a O(n) runtime. The dequeue method stayed much the same, since the work of keeping that nodes in order is done by the enqueue function, I only had to repoint the top Node of the front stack in the queue to the next node in the stack. The dequeue method remains an O(1) runtime.
+
+## API
+The PseudoQueue class currently has the following public methods:
+ - enqueue
+  - Takes in a string as a parameter. It will flip pop all the values off the front stack and push them onto the back stack. After that has completed it will push the string value onto the back stack, and then pop all the values off the back stack and push them back onto the front stack.
+ - dequeue
+  - Takes in no parameters, removes the top Node from the stack and repoints the top to the next Node in the stack. Returns the value of the top Node.
+  
+[See Code Here](https://github.com/Rachnicrice/data-structures-and-algorithms/tree/master/code401challenges/src/main/java/code401challenges/stacksAndQueues)
+![Whiteboard](assets/queueWithStacks.jpg)
