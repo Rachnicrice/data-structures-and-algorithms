@@ -1,5 +1,6 @@
-package utilities;
+package code401challenges.utilities;
 
+import code401challenges.utilities.AnimalShelter;
 import org.junit.Assert;
 import org.junit.Before;
 import org.junit.Test;
