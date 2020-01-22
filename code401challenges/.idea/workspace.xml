@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="56a9d471-70c8-4a3f-a446-5067bad9a39c" name="Default Changelist" comment="" />
+    <list default="true" id="56a9d471-70c8-4a3f-a446-5067bad9a39c" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/utilities/AnimalShelter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/utilities/AnimalShelter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/utilities/AnimalShelterTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/utilities/AnimalShelterTest.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -77,13 +81,13 @@
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
   </component>
-  <component name="RunManager" selected="Gradle.PseudoQueueTest.testDequeue_MultipleValues">
-    <configuration name="PseudoQueueTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+  <component name="RunManager" selected="Gradle.AnimalShelterTest.testDequeue_AllAnimalsFromShelter">
+    <configuration name="AnimalShelterTest.testDequeue_AllAnimalsFromShelter" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;code401challenges.stacksAndQueues.PseudoQueueTest&quot;" />
+        <option name="scriptParameters" value="--tests &quot;utilities.AnimalShelterTest.testDequeue_AllAnimalsFromShelter&quot;" />
         <option name="taskDescriptions">
           <list />
         </option>
@@ -98,12 +102,12 @@
       <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="PseudoQueueTest.testDequeue_EmptyQueue" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="AnimalShelterTest.testDequeue_AllAnimalsFromShelterInOrder" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;code401challenges.stacksAndQueues.PseudoQueueTest.testDequeue_EmptyQueue&quot;" />
+        <option name="scriptParameters" value="--tests &quot;utilities.AnimalShelterTest.testDequeue_AllAnimalsFromShelterInOrder&quot;" />
         <option name="taskDescriptions">
           <list />
         </option>
@@ -118,12 +122,12 @@
       <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="PseudoQueueTest.testDequeue_MultipleValues" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="AnimalShelterTest.testDequeue_AnimalAtFront" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;code401challenges.stacksAndQueues.PseudoQueueTest.testDequeue_MultipleValues&quot;" />
+        <option name="scriptParameters" value="--tests &quot;utilities.AnimalShelterTest.testDequeue_AnimalAtFront&quot;" />
         <option name="taskDescriptions">
           <list />
         </option>
@@ -138,12 +142,12 @@
       <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="PseudoQueueTest.testEnqueue" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="AnimalShelterTest.testDequeue_MultipleAnimals" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;code401challenges.stacksAndQueues.PseudoQueueTest.testEnqueue&quot;" />
+        <option name="scriptParameters" value="--tests &quot;utilities.AnimalShelterTest.testDequeue_MultipleAnimals&quot;" />
         <option name="taskDescriptions">
           <list />
         </option>
@@ -158,12 +162,12 @@
       <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="PseudoQueueTest.testEnqueue_MultipleValuesAdded" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="AnimalShelterTest.testDequeue_WantedAnimalNotAtFront" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;code401challenges.stacksAndQueues.PseudoQueueTest.testEnqueue_MultipleValuesAdded&quot;" />
+        <option name="scriptParameters" value="--tests &quot;utilities.AnimalShelterTest.testDequeue_WantedAnimalNotAtFront&quot;" />
         <option name="taskDescriptions">
           <list />
         </option>
@@ -180,11 +184,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Gradle.PseudoQueueTest.testDequeue_MultipleValues" />
-        <item itemvalue="Gradle.PseudoQueueTest" />
-        <item itemvalue="Gradle.PseudoQueueTest.testDequeue_EmptyQueue" />
-        <item itemvalue="Gradle.PseudoQueueTest.testEnqueue_MultipleValuesAdded" />
-        <item itemvalue="Gradle.PseudoQueueTest.testEnqueue" />
+        <item itemvalue="Gradle.AnimalShelterTest.testDequeue_AllAnimalsFromShelter" />
+        <item itemvalue="Gradle.AnimalShelterTest.testDequeue_AllAnimalsFromShelterInOrder" />
+        <item itemvalue="Gradle.AnimalShelterTest.testDequeue_MultipleAnimals" />
+        <item itemvalue="Gradle.AnimalShelterTest.testDequeue_WantedAnimalNotAtFront" />
+        <item itemvalue="Gradle.AnimalShelterTest.testDequeue_AnimalAtFront" />
       </list>
     </recent_temporary>
   </component>
@@ -227,6 +231,10 @@
       <screen x="0" y="23" width="1440" height="821" />
     </state>
     <state x="429" y="69" key="#code401challenges/0.23.1440.821@0.23.1440.821" timestamp="1578447941677" />
+    <state x="442" y="260" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1579666803581">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="442" y="260" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1440.900@0.0.1440.900" timestamp="1579666803581" />
     <state x="533" y="166" key="#com.intellij.ide.util.MemberChooser" timestamp="1579109368096">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
@@ -235,34 +243,34 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="170" y="382" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.0.1440.900@0.0.1440.900" timestamp="1579549886219" />
-    <state width="1440" height="311" key="GridCell.Tab.0.bottom" timestamp="1579626720375">
+    <state width="1398" height="241" key="GridCell.Tab.0.bottom" timestamp="1579671517366">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1440" height="311" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1579626720375" />
+    <state width="1398" height="241" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1579671517366" />
     <state width="1358" height="198" key="GridCell.Tab.0.bottom/0.23.1440.814@0.23.1440.814" timestamp="1578547536152" />
     <state width="1358" height="198" key="GridCell.Tab.0.bottom/0.23.1440.816@0.23.1440.816" timestamp="1578547657865" />
     <state width="1358" height="248" key="GridCell.Tab.0.bottom/0.23.1440.821@0.23.1440.821" timestamp="1578503402393" />
     <state width="1358" height="199" key="GridCell.Tab.0.bottom/0.23.1440.822@0.23.1440.822" timestamp="1578460029489" />
-    <state width="1440" height="311" key="GridCell.Tab.0.center" timestamp="1579626720374">
+    <state width="1398" height="241" key="GridCell.Tab.0.center" timestamp="1579671517365">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1440" height="311" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1579626720374" />
+    <state width="1398" height="241" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1579671517365" />
     <state width="1358" height="198" key="GridCell.Tab.0.center/0.23.1440.814@0.23.1440.814" timestamp="1578547536151" />
     <state width="1358" height="198" key="GridCell.Tab.0.center/0.23.1440.816@0.23.1440.816" timestamp="1578547657864" />
     <state width="1358" height="248" key="GridCell.Tab.0.center/0.23.1440.821@0.23.1440.821" timestamp="1578503402392" />
     <state width="1358" height="199" key="GridCell.Tab.0.center/0.23.1440.822@0.23.1440.822" timestamp="1578460029488" />
-    <state width="1440" height="311" key="GridCell.Tab.0.left" timestamp="1579626720374">
+    <state width="1398" height="241" key="GridCell.Tab.0.left" timestamp="1579671517364">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1440" height="311" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1579626720374" />
+    <state width="1398" height="241" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1579671517364" />
     <state width="1358" height="198" key="GridCell.Tab.0.left/0.23.1440.814@0.23.1440.814" timestamp="1578547536151" />
     <state width="1358" height="198" key="GridCell.Tab.0.left/0.23.1440.816@0.23.1440.816" timestamp="1578547657864" />
     <state width="1358" height="248" key="GridCell.Tab.0.left/0.23.1440.821@0.23.1440.821" timestamp="1578503402392" />
     <state width="1358" height="199" key="GridCell.Tab.0.left/0.23.1440.822@0.23.1440.822" timestamp="1578460029488" />
-    <state width="1440" height="311" key="GridCell.Tab.0.right" timestamp="1579626720375">
+    <state width="1398" height="241" key="GridCell.Tab.0.right" timestamp="1579671517365">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1440" height="311" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1579626720375" />
+    <state width="1398" height="241" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1579671517365" />
     <state width="1358" height="198" key="GridCell.Tab.0.right/0.23.1440.814@0.23.1440.814" timestamp="1578547536152" />
     <state width="1358" height="198" key="GridCell.Tab.0.right/0.23.1440.816@0.23.1440.816" timestamp="1578547657865" />
     <state width="1358" height="248" key="GridCell.Tab.0.right/0.23.1440.821@0.23.1440.821" timestamp="1578503402393" />
