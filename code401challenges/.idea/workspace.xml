@@ -77,7 +77,27 @@
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
   </component>
-  <component name="RunManager" selected="Gradle.PseudoQueueTest.testDequeue_MultipleValues">
+  <component name="RunManager" selected="Gradle.AnimalTest.testAnimalConstructor">
+    <configuration name="AnimalTest.testAnimalConstructor" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="--tests &quot;utilities.AnimalTest.testAnimalConstructor&quot;" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":cleanTest" />
+            <option value=":test" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
     <configuration name="PseudoQueueTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -138,26 +158,6 @@
       <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="PseudoQueueTest.testEnqueue" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;code401challenges.stacksAndQueues.PseudoQueueTest.testEnqueue&quot;" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":cleanTest" />
-            <option value=":test" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
-      <method v="2" />
-    </configuration>
     <configuration name="PseudoQueueTest.testEnqueue_MultipleValuesAdded" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -180,11 +180,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.AnimalTest.testAnimalConstructor" />
         <item itemvalue="Gradle.PseudoQueueTest.testDequeue_MultipleValues" />
         <item itemvalue="Gradle.PseudoQueueTest" />
         <item itemvalue="Gradle.PseudoQueueTest.testDequeue_EmptyQueue" />
         <item itemvalue="Gradle.PseudoQueueTest.testEnqueue_MultipleValuesAdded" />
-        <item itemvalue="Gradle.PseudoQueueTest.testEnqueue" />
       </list>
     </recent_temporary>
   </component>
@@ -227,6 +227,10 @@
       <screen x="0" y="23" width="1440" height="821" />
     </state>
     <state x="429" y="69" key="#code401challenges/0.23.1440.821@0.23.1440.821" timestamp="1578447941677" />
+    <state x="442" y="260" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1579666803581">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="442" y="260" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1440.900@0.0.1440.900" timestamp="1579666803581" />
     <state x="533" y="166" key="#com.intellij.ide.util.MemberChooser" timestamp="1579109368096">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
