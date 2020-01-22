@@ -1,4 +1,4 @@
-package utilities;
+package code401challenges.utilities;
 
 public class Animal {
     //instance variables

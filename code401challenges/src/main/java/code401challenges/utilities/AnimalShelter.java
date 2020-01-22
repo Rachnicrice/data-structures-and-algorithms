@@ -1,6 +1,4 @@
-package utilities;
-
-import code401challenges.stacksAndQueues.Node;
+package code401challenges.utilities;
 
 import java.util.NoSuchElementException;
 
