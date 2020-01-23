@@ -171,3 +171,15 @@ The AnimalShelter class currently has the following public methods:
   
 [See Code Here](https://github.com/Rachnicrice/data-structures-and-algorithms/tree/master/code401challenges/src/main/java/code401challenges/utilities)
 ![Whiteboard](assets/fifoAnimalShelter.jpg)
+
+## Challenge 11
+The problem domain for this challenge was to create a method that evaluated whether or not the brackets in a string input were balanced. Ex. () is balanced, {, [), and ({)} are not.
+
+## Approach & Efficiency
+I decided to loop through the string and evaluate each character individually. To do this I created three empty stacks for each type of brackets. If the character was an opening brace, I would check to make sure it's relevant stack was empty and then push it into that stack. When I found an closing brace, I would check to make sure it's relevant stack was not empty, and pop the value off. If by the end of the String all the stacks were still empty, then I would return true, if not then return false.
+
+## API
+- multiBracketValidation
+  
+[See Code Here](https://github.com/Rachnicrice/data-structures-and-algorithms/tree/master/code401challenges/src/main/java/code401challenges/utilities)
+![Whiteboard](assets/multiBracket.jpg)
