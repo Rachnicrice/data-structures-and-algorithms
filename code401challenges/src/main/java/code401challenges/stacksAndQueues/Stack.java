@@ -7,7 +7,7 @@ public class Stack {
     Node top;
 
     //constructor function
-    Stack () {
+    public Stack() {
         this.top = null;
     }
 
