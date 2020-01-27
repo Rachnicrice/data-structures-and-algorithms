@@ -31,13 +31,31 @@ public class Tree {
         return values;
     }
 
-    public int[] inOrder () {
-
-        return null;
+    public Integer[] inOrder () {
+        return (Integer[]) inOrder(this.root).toArray();
     }
 
-    public int[] postOrder () {
+    public ArrayList<Integer> inOrder (Node node) {
+        ArrayList<Integer> values = new ArrayList<>();
+        if (node != null) {
+            inOrder(node.left);
+            values.add(node.value);
+            inOrder(node.right);
+        }
+        return values;
+    }
 
-        return null;
+    public Integer[] postOrder () {
+        return (Integer[]) postOrder(this.root).toArray();
+    }
+
+    public ArrayList<Integer> postOrder (Node node) {
+        ArrayList<Integer> values = new ArrayList<>();
+        if (node != null) {
+            postOrder(node.left);
+            postOrder(node.right);
+            values.add(node.value);
+        }
+        return values;
     }
 }
