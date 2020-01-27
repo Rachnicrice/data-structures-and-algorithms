@@ -24,4 +24,22 @@ public class BinarySearchTreeTest {
     public void testTreeConstructor_WithRootNode () {
         Assert.assertEquals(9, testFull.root.value);
     }
+
+    @Test
+    public void testAdd_ToEmptyTree () {
+        testEmpty.add(1);
+        Assert.assertEquals(1, testEmpty.root.value);
+    }
+
+    @Test
+    public void testAdd_SmallerValue () {
+        testFull.add(8);
+        Assert.assertEquals(8, testFull.root.left.value);
+    }
+
+    @Test
+    public void testAdd_LargerValue () {
+        testFull.add(10);
+        Assert.assertEquals(10, testFull.root.right.value);
+    }
 }
