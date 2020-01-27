@@ -1,5 +1,8 @@
 package tree;
 
+import java.lang.reflect.Array;
+import java.util.ArrayList;
+
 public class Tree {
     //instance variables
     Node root;
@@ -14,9 +17,18 @@ public class Tree {
     }
 
     //instance methods
-    public int[] preOrder () {
+    public Integer[] preOrder () {
+        return (Integer[]) preOrder(this.root).toArray();
+    }
 
-        return null;
+    public ArrayList<Integer> preOrder (Node node) {
+        ArrayList<Integer> values = new ArrayList<>();
+        if (node != null) {
+            values.add(node.value);
+            preOrder(node.left);
+            preOrder(node.right);
+        }
+        return values;
     }
 
     public int[] inOrder () {

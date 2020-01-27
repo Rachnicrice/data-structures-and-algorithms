@@ -13,6 +13,9 @@ public class TreeTest {
     public void setUp () {
         testEmpty = new Tree();
         testFull = new Tree (node = new Node (1));
+        testFull.root.left = new Node(5);
+        testFull.root.right = new Node(2);
+        testFull.root.left.right = new Node(8);
     }
 
     @Test
