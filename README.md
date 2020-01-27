@@ -208,5 +208,5 @@ The BST class currently has the following public methods:
  - contains
   - Takes in a int value, then does a recursive call to find the value if it exists in the tree. Will return true if the value is found, false if not.
   
-[See Code Here](https://github.com/Rachnicrice/data-structures-and-algorithms/tree/master/code401challenges/src/main/java/code401challenges/)
+[See Code Here](https://github.com/Rachnicrice/data-structures-and-algorithms/tree/master/code401challenges/src/main/java/code401challenges/tree)
 
