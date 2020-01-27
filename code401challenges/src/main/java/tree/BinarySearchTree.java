@@ -37,19 +37,19 @@ public class BinarySearchTree {
     }
 
     public boolean contains (int value) {
-        return contains(value, this.root);
+        return containsRecursive(value, this.root);
     }
 
-    public boolean contains (int value, Node node) {
+    public boolean containsRecursive (int value, Node node) {
         if (node == null) {
             return false;
         } else {
-            if (value < root.value) {
-                return contains(value, node.left);
-            } else if (value > root.value) {
-                return contains(value, node.right);
-            } else {
+            if (value == node.value) {
                 return true;
+            } else if (value < node.value) {
+                return containsRecursive(value, node.left);
+            } else {
+                return containsRecursive(value, node.right);
             }
         }
     }

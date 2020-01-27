@@ -42,4 +42,25 @@ public class BinarySearchTreeTest {
         testFull.add(10);
         Assert.assertEquals(10, testFull.root.right.value);
     }
+
+    @Test
+    public void testContains_RootValue () {
+        Assert.assertTrue(testFull.contains(9));
+    }
+
+    @Test
+    public void testContains_EmptyTree () {
+        Assert.assertFalse(testEmpty.contains(1));
+    }
+
+    @Test
+    public void testContains_TreeWithManyNodes () {
+        testFull.add(10);
+        testFull.add(7);
+        testFull.add(11);
+        testFull.add(8);
+
+        Assert.assertFalse(testFull.contains(1));
+        Assert.assertTrue(testFull.contains(11));
+    }
 }
