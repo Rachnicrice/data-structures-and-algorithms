@@ -2,6 +2,7 @@ package tree;
 
 import java.lang.reflect.Array;
 import java.util.ArrayList;
+import java.util.LinkedList;
 
 public class Tree {
     //instance variables
@@ -18,26 +19,44 @@ public class Tree {
 
     //instance methods
     public Integer[] preOrder () {
-        return (Integer[]) preOrder(this.root).toArray();
+        return preOrder(this.root).toArray(new Integer[0]);
     }
 
-    public ArrayList<Integer> preOrder (Node node) {
-        ArrayList<Integer> values = new ArrayList<>();
+    public LinkedList<Integer> preOrder (Node node) {
+        LinkedList<Integer> values = new LinkedList<>();
         if (node != null) {
             values.add(node.value);
-            preOrder(node.left);
-            preOrder(node.right);
+            values.addAll(preOrder(node.left));
+            values.addAll(preOrder(node.right));
         }
         return values;
     }
 
-    public int[] inOrder () {
-
-        return null;
+    public Integer[] inOrder () {
+        return inOrder(this.root).toArray(new Integer[0]);
     }
 
-    public int[] postOrder () {
+    public LinkedList<Integer> inOrder (Node node) {
+        LinkedList<Integer> values = new LinkedList<>();
+        if (node != null) {
+            values.addAll(inOrder(node.left));
+            values.add(node.value);
+            values.addAll(inOrder(node.right));
+        }
+        return values;
+    }
 
-        return null;
+    public Integer[] postOrder () {
+        return postOrder(this.root).toArray(new Integer[0]);
+    }
+
+    public LinkedList<Integer> postOrder (Node node) {
+        LinkedList<Integer> values = new LinkedList<>();
+        if (node != null) {
+            values.addAll(postOrder(node.left));
+            values.addAll(postOrder(node.right));
+            values.add(node.value);
+        }
+        return values;
     }
 }
