@@ -1,6 +1,4 @@
-package tree;
-
-import java.rmi.AlreadyBoundException;
+package code401challenges.tree;
 
 public class BinarySearchTree {
     //instance variables
@@ -30,7 +28,7 @@ public class BinarySearchTree {
             } else if (value > root.value) {
                 root.right = add(value, root.right);
             } else {
-                throw new IllegalArgumentException("Value already exists in the tree");
+                throw new IllegalArgumentException("Value already exists in the code401challenges.tree");
             }
         }
         return root;

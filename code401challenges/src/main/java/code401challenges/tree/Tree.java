@@ -1,7 +1,5 @@
-package tree;
+package code401challenges.tree;
 
-import java.lang.reflect.Array;
-import java.util.ArrayList;
 import java.util.LinkedList;
 
 public class Tree {

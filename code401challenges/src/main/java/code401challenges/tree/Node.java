@@ -1,4 +1,4 @@
-package tree;
+package code401challenges.tree;
 
 public class Node {
     //instance variables
