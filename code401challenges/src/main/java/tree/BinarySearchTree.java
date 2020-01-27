@@ -9,6 +9,10 @@ public class BinarySearchTree {
         this.root = null;
     }
 
+    BinarySearchTree (Node node) {
+        this.root = node;
+    }
+
     //instance methods
     public void add (int value) {
 
