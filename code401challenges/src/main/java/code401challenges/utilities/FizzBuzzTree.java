@@ -10,12 +10,13 @@ public class FizzBuzzTree {
     //constructor function
     FizzBuzzTree() {};
 
-    public FizzBuzzTree fizzBuzzTree (Tree tree) {
+    public FizzBuzzTree makeFizzBuzzTree (Tree tree) {
         FizzBuzzTree fiBi = new FizzBuzzTree();
-        return fizzBuzzTree(tree, tree.root, fiBi, fiBi.root);
+        fiBi.root = fizzBuzzTree(tree, tree.root, fiBi, fiBi.root);
+        return fiBi;
     }
 
-    private FizzBuzzTree fizzBuzzTree (Tree tree, Node node, FizzBuzzTree fiBi, FizzBuzzNode fizNode) {
+    private FizzBuzzNode fizzBuzzTree (Tree tree, Node node, FizzBuzzTree fiBi, FizzBuzzNode fizNode) {
         if (node != null) {
             if (node.value % 3 == 0 && node.value % 5 == 0) {
                 fizNode = new FizzBuzzNode("FizzBuzz");
@@ -28,9 +29,9 @@ public class FizzBuzzTree {
                 fizNode = new FizzBuzzNode(number);
             }
 
-            fizzBuzzTree(tree, node.left, fiBi, fizNode.left);
-            fizzBuzzTree(tree, node.right, fiBi, fizNode.right);
+            fizNode.left = fizzBuzzTree(tree, node.left, fiBi, fizNode.left);
+            fizNode.right = fizzBuzzTree(tree, node.right, fiBi, fizNode.right);
         }
-        return fiBi;
+        return fizNode;
     }
 }

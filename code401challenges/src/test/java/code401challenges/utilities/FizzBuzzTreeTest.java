@@ -25,4 +25,19 @@ public class FizzBuzzTreeTest {
         Assert.assertNull(test.root);
     }
 
+    @Test
+    public void testFizzBuzzTree_Full () {
+        Assert.assertEquals(15, convertToFizz.root.value);
+        Assert.assertEquals(2, convertToFizz.root.left.value);
+        Assert.assertEquals(10, convertToFizz.root.right.value);
+        Assert.assertEquals(6, convertToFizz.root.left.left.value);
+    }
+
+    @Test
+    public void testFizzBuzzTree_EmptyTree () {
+        FizzBuzzTree blah = new FizzBuzzTree();
+        FizzBuzzTree test1 = blah.makeFizzBuzzTree(convertToFizz);
+        System.out.println(test1.root);
+    }
+
 }
