@@ -4,14 +4,14 @@ import java.util.LinkedList;
 
 public class Tree {
     //instance variables
-    Node root;
+    public Node root;
 
     //Constructor function
-    Tree () {
+    public Tree() {
         this.root = null;
     }
 
-    Tree (Node node) {
+    public Tree (Node node) {
         this.root = node;
     }
 
