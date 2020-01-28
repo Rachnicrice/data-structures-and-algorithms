@@ -2,12 +2,12 @@ package code401challenges.tree;
 
 public class Node {
     //instance variables
-    Node left;
-    Node right;
-    int value;
+    public Node left;
+    public Node right;
+    public int value;
 
     //constructor function
-    Node (int value) {
+    public Node(int value) {
         this.value  = value;
         this.left = null;
         this.right = null;

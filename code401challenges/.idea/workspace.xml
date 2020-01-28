@@ -1,14 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="56a9d471-70c8-4a3f-a446-5067bad9a39c" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/main/java/tree/BinarySearchTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/code401challenges/tree/BinarySearchTree.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/tree/Node.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/code401challenges/tree/Node.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/tree/Tree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/code401challenges/tree/Tree.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/tree/BinarySearchTreeTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/code401challenges/tree/BinarySearchTreeTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/tree/NodeTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/code401challenges/tree/NodeTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/tree/TreeTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/code401challenges/tree/TreeTest.java" afterDir="false" />
-    </list>
+    <list default="true" id="56a9d471-70c8-4a3f-a446-5067bad9a39c" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -84,13 +77,13 @@
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
   </component>
-  <component name="RunManager" selected="Gradle.TreeTest.testPostOrder">
-    <configuration name="BinarySearchTreeTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+  <component name="RunManager" selected="Gradle.FizzBuzzTreeTest.testMakeFizzBuzzTree_EmptyTree">
+    <configuration name="FizzBuzzTreeTest.testFizzBuzzTreeConstructor" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;tree.BinarySearchTreeTest&quot;" />
+        <option name="scriptParameters" value="--tests &quot;code401challenges.utilities.FizzBuzzTreeTest.testFizzBuzzTreeConstructor&quot;" />
         <option name="taskDescriptions">
           <list />
         </option>
@@ -105,12 +98,12 @@
       <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="BinarySearchTreeTest.testContains_TreeWithManyNodes" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="FizzBuzzTreeTest.testFizzBuzzTree_EmptyTree" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;tree.BinarySearchTreeTest.testContains_TreeWithManyNodes&quot;" />
+        <option name="scriptParameters" value="--tests &quot;code401challenges.utilities.FizzBuzzTreeTest.testFizzBuzzTree_EmptyTree&quot;" />
         <option name="taskDescriptions">
           <list />
         </option>
@@ -125,12 +118,12 @@
       <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="TreeTest.testInOrder" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="FizzBuzzTreeTest.testFizzBuzzTree_Full" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;tree.TreeTest.testInOrder&quot;" />
+        <option name="scriptParameters" value="--tests &quot;code401challenges.utilities.FizzBuzzTreeTest.testFizzBuzzTree_Full&quot;" />
         <option name="taskDescriptions">
           <list />
         </option>
@@ -145,12 +138,12 @@
       <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="TreeTest.testPostOrder" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="FizzBuzzTreeTest.testMakeFizzBuzzTree_EmptyTree" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;tree.TreeTest.testPostOrder&quot;" />
+        <option name="scriptParameters" value="--tests &quot;code401challenges.utilities.FizzBuzzTreeTest.testMakeFizzBuzzTree_EmptyTree&quot;" />
         <option name="taskDescriptions">
           <list />
         </option>
@@ -165,12 +158,12 @@
       <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="TreeTest.testPreOrder" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="TreeTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;tree.TreeTest.testPreOrder&quot;" />
+        <option name="scriptParameters" value="--tests &quot;code401challenges.tree.TreeTest&quot;" />
         <option name="taskDescriptions">
           <list />
         </option>
@@ -187,11 +180,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Gradle.TreeTest.testPostOrder" />
-        <item itemvalue="Gradle.TreeTest.testInOrder" />
-        <item itemvalue="Gradle.TreeTest.testPreOrder" />
-        <item itemvalue="Gradle.BinarySearchTreeTest.testContains_TreeWithManyNodes" />
-        <item itemvalue="Gradle.BinarySearchTreeTest" />
+        <item itemvalue="Gradle.FizzBuzzTreeTest.testMakeFizzBuzzTree_EmptyTree" />
+        <item itemvalue="Gradle.FizzBuzzTreeTest.testFizzBuzzTree_EmptyTree" />
+        <item itemvalue="Gradle.FizzBuzzTreeTest.testFizzBuzzTree_Full" />
+        <item itemvalue="Gradle.FizzBuzzTreeTest.testFizzBuzzTreeConstructor" />
+        <item itemvalue="Gradle.TreeTest" />
       </list>
     </recent_temporary>
   </component>
@@ -246,60 +239,64 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="170" y="382" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.0.1440.900@0.0.1440.900" timestamp="1580166117828" />
-    <state width="1398" height="241" key="GridCell.Tab.0.bottom" timestamp="1580166125854">
+    <state x="458" y="204" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1580167773024">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="241" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1580166125853" />
+    <state x="458" y="204" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1440.900@0.0.1440.900" timestamp="1580167773024" />
+    <state width="1398" height="241" key="GridCell.Tab.0.bottom" timestamp="1580234662389">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1398" height="241" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1580234662389" />
     <state width="1358" height="198" key="GridCell.Tab.0.bottom/0.23.1440.814@0.23.1440.814" timestamp="1578547536152" />
     <state width="1358" height="198" key="GridCell.Tab.0.bottom/0.23.1440.816@0.23.1440.816" timestamp="1578547657865" />
     <state width="1358" height="248" key="GridCell.Tab.0.bottom/0.23.1440.821@0.23.1440.821" timestamp="1578503402393" />
     <state width="1358" height="199" key="GridCell.Tab.0.bottom/0.23.1440.822@0.23.1440.822" timestamp="1578460029489" />
-    <state width="1398" height="241" key="GridCell.Tab.0.center" timestamp="1580166125851">
+    <state width="1398" height="241" key="GridCell.Tab.0.center" timestamp="1580234662388">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="241" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1580166125851" />
+    <state width="1398" height="241" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1580234662388" />
     <state width="1358" height="198" key="GridCell.Tab.0.center/0.23.1440.814@0.23.1440.814" timestamp="1578547536151" />
     <state width="1358" height="198" key="GridCell.Tab.0.center/0.23.1440.816@0.23.1440.816" timestamp="1578547657864" />
     <state width="1358" height="248" key="GridCell.Tab.0.center/0.23.1440.821@0.23.1440.821" timestamp="1578503402392" />
     <state width="1358" height="199" key="GridCell.Tab.0.center/0.23.1440.822@0.23.1440.822" timestamp="1578460029488" />
-    <state width="1398" height="241" key="GridCell.Tab.0.left" timestamp="1580166125850">
+    <state width="1398" height="241" key="GridCell.Tab.0.left" timestamp="1580234662388">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="241" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1580166125850" />
+    <state width="1398" height="241" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1580234662388" />
     <state width="1358" height="198" key="GridCell.Tab.0.left/0.23.1440.814@0.23.1440.814" timestamp="1578547536151" />
     <state width="1358" height="198" key="GridCell.Tab.0.left/0.23.1440.816@0.23.1440.816" timestamp="1578547657864" />
     <state width="1358" height="248" key="GridCell.Tab.0.left/0.23.1440.821@0.23.1440.821" timestamp="1578503402392" />
     <state width="1358" height="199" key="GridCell.Tab.0.left/0.23.1440.822@0.23.1440.822" timestamp="1578460029488" />
-    <state width="1398" height="241" key="GridCell.Tab.0.right" timestamp="1580166125852">
+    <state width="1398" height="241" key="GridCell.Tab.0.right" timestamp="1580234662389">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="241" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1580166125852" />
+    <state width="1398" height="241" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1580234662389" />
     <state width="1358" height="198" key="GridCell.Tab.0.right/0.23.1440.814@0.23.1440.814" timestamp="1578547536152" />
     <state width="1358" height="198" key="GridCell.Tab.0.right/0.23.1440.816@0.23.1440.816" timestamp="1578547657865" />
     <state width="1358" height="248" key="GridCell.Tab.0.right/0.23.1440.821@0.23.1440.821" timestamp="1578503402393" />
     <state width="1358" height="199" key="GridCell.Tab.0.right/0.23.1440.822@0.23.1440.822" timestamp="1578460029489" />
-    <state width="1398" height="302" key="GridCell.Tab.1.bottom" timestamp="1580154702989">
+    <state width="1398" height="302" key="GridCell.Tab.1.bottom" timestamp="1580233956526">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="302" key="GridCell.Tab.1.bottom/0.0.1440.900@0.0.1440.900" timestamp="1580154702989" />
+    <state width="1398" height="302" key="GridCell.Tab.1.bottom/0.0.1440.900@0.0.1440.900" timestamp="1580233956526" />
     <state width="1358" height="248" key="GridCell.Tab.1.bottom/0.23.1440.821@0.23.1440.821" timestamp="1578503402394" />
     <state width="1358" height="248" key="GridCell.Tab.1.bottom/0.23.1440.822@0.23.1440.822" timestamp="1578459904158" />
-    <state width="1398" height="302" key="GridCell.Tab.1.center" timestamp="1580154702988">
+    <state width="1398" height="302" key="GridCell.Tab.1.center" timestamp="1580233956525">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="302" key="GridCell.Tab.1.center/0.0.1440.900@0.0.1440.900" timestamp="1580154702988" />
+    <state width="1398" height="302" key="GridCell.Tab.1.center/0.0.1440.900@0.0.1440.900" timestamp="1580233956525" />
     <state width="1358" height="248" key="GridCell.Tab.1.center/0.23.1440.821@0.23.1440.821" timestamp="1578503402394" />
     <state width="1358" height="248" key="GridCell.Tab.1.center/0.23.1440.822@0.23.1440.822" timestamp="1578459904157" />
-    <state width="1398" height="302" key="GridCell.Tab.1.left" timestamp="1580154702987">
+    <state width="1398" height="302" key="GridCell.Tab.1.left" timestamp="1580233956525">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="302" key="GridCell.Tab.1.left/0.0.1440.900@0.0.1440.900" timestamp="1580154702987" />
+    <state width="1398" height="302" key="GridCell.Tab.1.left/0.0.1440.900@0.0.1440.900" timestamp="1580233956525" />
     <state width="1358" height="248" key="GridCell.Tab.1.left/0.23.1440.821@0.23.1440.821" timestamp="1578503402393" />
     <state width="1358" height="248" key="GridCell.Tab.1.left/0.23.1440.822@0.23.1440.822" timestamp="1578459904157" />
-    <state width="1398" height="302" key="GridCell.Tab.1.right" timestamp="1580154702988">
+    <state width="1398" height="302" key="GridCell.Tab.1.right" timestamp="1580233956526">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="302" key="GridCell.Tab.1.right/0.0.1440.900@0.0.1440.900" timestamp="1580154702988" />
+    <state width="1398" height="302" key="GridCell.Tab.1.right/0.0.1440.900@0.0.1440.900" timestamp="1580233956526" />
     <state width="1358" height="248" key="GridCell.Tab.1.right/0.23.1440.821@0.23.1440.821" timestamp="1578503402394" />
     <state width="1358" height="248" key="GridCell.Tab.1.right/0.23.1440.822@0.23.1440.822" timestamp="1578459904157" />
     <state x="515" y="220" key="chooseDestDirectoryDialog" timestamp="1578448222297">
