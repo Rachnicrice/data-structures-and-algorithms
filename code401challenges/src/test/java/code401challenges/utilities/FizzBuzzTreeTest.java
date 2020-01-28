@@ -34,10 +34,22 @@ public class FizzBuzzTreeTest {
     }
 
     @Test
-    public void testFizzBuzzTree_EmptyTree () {
+    public void testMakeFizzBuzzTree () {
         FizzBuzzTree blah = new FizzBuzzTree();
         FizzBuzzTree test1 = blah.makeFizzBuzzTree(convertToFizz);
-        System.out.println(test1.root);
+
+        Assert.assertEquals("FizzBuzz", test1.root.value);
+        Assert.assertEquals("2", test1.root.left.value);
+        Assert.assertEquals("Buzz", test1.root.right.value);
+        Assert.assertEquals("Fizz", test1.root.left.left.value);
+    }
+
+    @Test
+    public void testMakeFizzBuzzTree_EmptyTree () {
+        FizzBuzzTree meep = new FizzBuzzTree();
+        FizzBuzzTree test2 = meep.makeFizzBuzzTree(new Tree());
+
+        Assert.assertNull(test2.root);
     }
 
 }
