@@ -210,3 +210,18 @@ The BST class currently has the following public methods:
   
 [See Code Here](https://github.com/Rachnicrice/data-structures-and-algorithms/tree/master/code401challenges/src/main/java/code401challenges/tree)
 
+
+## Challenge 13
+The problem domain for this challenge was to create a method that took in a tree and returned a new tree where the values were replaced with Fizz, Buzz or FizzBuzz dependant on whether the number was divisible by 3, 5, or both.
+
+## Approach & Efficiency
+This function is going to have an O(n) runtime because it will need to check each node in the input tree. Unfortunately there is no way around this. I made a recursive call that preformed the check on each of the input tree's nodes before creating a corresponding node on the new FizzBuzzTree.
+
+## API
+- makeFizzBuzzTree
+  - takes in a tree and, instantiaes a new FizzBuzzTree and makes a recursive call to fizzBuzzTree. Returns the FizzBuzzTree.
+- fizzBuzzTree
+  - takes in a tree, it's node, a FizzBuzzTree, and it's node. Then checks the tree to see what the value is divisible by, makes a new node on the FizzBuzzTree and sets it's node to the corresponding value. Calls all left nodes and right nodes on the tree.
+  
+[See Code Here](https://github.com/Rachnicrice/data-structures-and-algorithms/tree/master/code401challenges/src/main/java/code401challenges/utilities/FizzBuzzTree)
+![Whiteboard](assets/FizzBuzzTree.jpg)
