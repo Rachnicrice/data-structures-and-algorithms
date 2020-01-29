@@ -74,7 +74,7 @@ public class Tree {
             }
 
             answers.addLast(q.removeFirst().value);
-            currentNode = q.getFirst();
+            currentNode = q.peekFirst();
         }
 
         return answers;
