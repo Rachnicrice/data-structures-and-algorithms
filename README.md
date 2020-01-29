@@ -225,3 +225,16 @@ This function is going to have an O(n) runtime because it will need to check eac
   
 [See Code Here](https://github.com/Rachnicrice/data-structures-and-algorithms/tree/master/code401challenges/src/main/java/code401challenges/utilities/FizzBuzzTree)
 ![Whiteboard](assets/FizzBuzzTree.jpg)
+
+## Challenge 14
+The problem domain for this challenge was to create a method that took in a tree and preformed a breadth-first traversal, returning the values of the nodes in the tree in the order in which they were encountered.
+
+## Approach & Efficiency
+This function is going to have an O(n) runtime because it will need to check each node in the input tree. Unfortunately there is no way around this. I used a queue to store the current node, add it's left and right children, then pop the current node off the queue and push it's value into my answers queue. The current node then because whichever node was at the front of the queue and the process was repeated until the queue was empty.
+
+## API
+- breadth first
+  - takes in a tree and, instantiaes a new queue list and answers list. Add the root node to the front of the queue, then in a loop that will run while the queue is not empty, add the left and right children of the front node to the back of the queue, remove the front node and add it to the answers list, set the new front node to be the next node in the queue. At the end of the loop, return the answers list.
+  
+[See Code Here](https://github.com/Rachnicrice/data-structures-and-algorithms/blob/master/code401challenges/src/main/java/code401challenges/tree/Tree.java)
+![Whiteboard](assets/breadthFirst.jpg)
