@@ -57,4 +57,26 @@ public class Tree {
         }
         return values;
     }
+
+    public LinkedList<Integer> breadthFirst () {
+        LinkedList<Integer> answers = new LinkedList<>();
+        LinkedList<Node> q = new LinkedList<>();
+        Node currentNode = this.root;
+        q.addFirst(currentNode);
+
+        while (q.peekFirst() != null) {
+            if (currentNode.left != null) {
+                q.addLast(currentNode.left);
+            }
+
+            if (currentNode.right != null) {
+                q.addLast(currentNode.right);
+            }
+
+            answers.addLast(q.removeFirst().value);
+            currentNode = q.getFirst();
+        }
+
+        return answers;
+    }
 }
