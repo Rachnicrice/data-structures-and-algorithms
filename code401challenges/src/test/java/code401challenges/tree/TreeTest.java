@@ -4,6 +4,9 @@ import org.junit.Assert;
 import org.junit.Before;
 import org.junit.Test;
 
+import java.util.LinkedList;
+import java.util.List;
+
 public class TreeTest {
     Tree testEmpty;
     Tree testFull;
@@ -56,5 +59,21 @@ public class TreeTest {
         Integer[] expected = {8, 5, 2, 1};
         Integer[] actual = testFull.postOrder();
         Assert.assertArrayEquals(expected, actual);
+    }
+
+    @Test
+    public void testBreadthFirst_EmptyTree () {
+        LinkedList<Integer> expected = new LinkedList<>();
+        Assert.assertEquals(expected, testEmpty.breadthFirst());
+    }
+
+    @Test
+    public void testBreadthFirst_FullTree () {
+        LinkedList<Integer> expected = new LinkedList<>();
+        expected.addLast(1);
+        expected.addLast(5);
+        expected.addLast(2);
+        expected.addLast(8);
+        Assert.assertEquals(expected, testFull.breadthFirst());
     }
 }
