@@ -243,7 +243,7 @@ This function is going to have an O(n) runtime because it will need to check eac
 The problem domain for this challenge was to create an instance method that found the maximum value present on a binary tree.
 
 ## Approach & Efficiency
-This function is going to have an O(n) runtime because it will need to check each node in the input tree. However it does have an O(1) time complexity since I am only returning one value.
+This function is going to have an O(n) time complexity because it will need to check each node in the tree. However it does have an O(1) space complexity since I am only returning one value.
 
 ## API
 - find_Maximum_Value
