@@ -6,6 +6,7 @@ import org.junit.Test;
 
 import java.util.LinkedList;
 import java.util.List;
+import java.util.NoSuchElementException;
 
 public class TreeTest {
     Tree testEmpty;
@@ -75,5 +76,16 @@ public class TreeTest {
         expected.addLast(2);
         expected.addLast(8);
         Assert.assertEquals(expected, testFull.breadthFirst());
+    }
+
+    @Test (expected = NoSuchElementException.class)
+    public void testFindMaximumValue_EmptyTree () {
+        Assert.assertNull(testEmpty.find_Maximum_Value());
+    }
+
+    @Test
+    public void testFindMaximumValue_FullTree () {
+        int actual = testFull.find_Maximum_Value();
+        Assert.assertEquals(8, testFull.find_Maximum_Value());
     }
 }
