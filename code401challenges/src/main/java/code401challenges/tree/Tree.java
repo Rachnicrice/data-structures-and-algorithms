@@ -1,6 +1,7 @@
 package code401challenges.tree;
 
 import java.util.LinkedList;
+import java.util.NoSuchElementException;
 
 public class Tree {
     //instance variables
@@ -78,5 +79,25 @@ public class Tree {
         }
 
         return answers;
+    }
+
+    public int find_Maximum_Value () {
+        if (this.root == null) {
+            throw new NoSuchElementException("Cannot find max on an empty tree");
+        }
+        return find_Maximum_Value(this.root);
+    }
+
+    public int find_Maximum_Value (Node node) {
+        int max = Integer.MIN_VALUE;
+
+        if (node.value > max) {
+            max = node.value;
+        }
+
+        find_Maximum_Value(node.left);
+        find_Maximum_Value(node.right);
+
+        return max;
     }
 }
