@@ -82,4 +82,10 @@ public class TreeTest {
     public void testFindMaximumValue_EmptyTree () {
         Assert.assertNull(testEmpty.find_Maximum_Value());
     }
+
+    @Test
+    public void testFindMaximumValue_FullTree () {
+        int actual = testFull.find_Maximum_Value();
+        Assert.assertEquals(8, testFull.find_Maximum_Value());
+    }
 }

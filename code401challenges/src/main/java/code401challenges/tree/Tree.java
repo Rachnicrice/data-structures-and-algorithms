@@ -85,18 +85,18 @@ public class Tree {
         if (this.root == null) {
             throw new NoSuchElementException("Cannot find max on an empty tree");
         }
-        return find_Maximum_Value(this.root);
+        int max = Integer.MIN_VALUE;
+        return find_Maximum_Value(max, this.root);
     }
 
-    public int find_Maximum_Value (Node node) {
-        int max = Integer.MIN_VALUE;
-
-        if (node.value > max) {
-            max = node.value;
+    public int find_Maximum_Value (int max, Node node) {
+        if (node != null) {
+            if (node.value > max) {
+                max = node.value;
+            }
+            max = find_Maximum_Value(max, node.left);
+            max = find_Maximum_Value(max, node.right);
         }
-
-        find_Maximum_Value(node.left);
-        find_Maximum_Value(node.right);
 
         return max;
     }
