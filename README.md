@@ -238,3 +238,18 @@ This function is going to have an O(n) runtime because it will need to check eac
   
 [See Code Here](https://github.com/Rachnicrice/data-structures-and-algorithms/blob/master/code401challenges/src/main/java/code401challenges/tree/Tree.java)
 ![Whiteboard](assets/breadthFirst.jpg)
+
+## Challenge 15
+The problem domain for this challenge was to create an instance method that found the maximum value present on a binary tree.
+
+## Approach & Efficiency
+This function is going to have an O(n) runtime because it will need to check each node in the input tree. However it does have an O(1) time complexity since I am only returning one value.
+
+## API
+- find_Maximum_Value
+  - the wrapper method takes in no parameters. It checks to see if the root is not null, if it is not, then it will instantiate a int called max to be the minimum possible value and call the recursive method.
+- find_Maximum_Value
+  - the recursive method takes in the max value and a node. It will check that the node is not null, if it is not it will check to see if the node's value is greater than max. If the node's value is greater, max will be set to equal the node value. Then max gets the recursive call passing in the new max and the node.left and node.right. Once all the recusive calls have been made max is returned.
+  
+[See Code Here](https://github.com/Rachnicrice/data-structures-and-algorithms/blob/master/code401challenges/src/main/java/code401challenges/tree/Tree.java)
+![Whiteboard](assets/findMax.jpg)
