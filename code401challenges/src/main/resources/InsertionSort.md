@@ -37,7 +37,7 @@ In the second pass of our insertion sort we will check to see if the number 23 i
 
 Pass 3:
 
-![Pass Three](data-structures-and-algorithms/assets/passThree.jpg)
+![Pass Three](/data-structures-and-algorithms/assets/passThree.jpg)
 
 In the third pass of our insertion sort we will check to see if the number 42 is less than the number in front of it (23), since it is not, no changes will be made to the array.
 
