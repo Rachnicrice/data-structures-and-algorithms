@@ -25,7 +25,7 @@ Input: [8, 4, 23, 42, 16, 15]
 
 Pass 1:
 
-![Pass One](assets/passOne.jpg)
+![Pass One](./data-structures-and-algorithms/assets/passOne.jpg)
 
 In the first pass of our insertion sort we compare 8 and 4, while 4 is less than the number at the index in front of it (8), we will move it forward.
 
@@ -58,7 +58,7 @@ At this time we will have gone through our entire array
 
 ### Efficiency
 
-- Time Complexity:
+- Time Complexity: Worst case, if the input array is sorted in reverse order, this will have an O(n^2) runtime. Best case, if the input array is already in sorted order it will have an O(n) runtime.
 
-- Space Complexity:
+- Space Complexity: Because this algorithm does not create a new array, it will have an O(n) complexity. The space used will be the same as the input array.
 
