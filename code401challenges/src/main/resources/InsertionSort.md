@@ -25,7 +25,7 @@ Input: [8, 4, 23, 42, 16, 15]
 
 Pass 1:
 
-![Pass One](/data-structures-and-algorithms/assets/passOne.jpg)
+![Pass One](assets/passOne.jpg)
 
 In the first pass of our insertion sort we compare 8 and 4, while 4 is less than the number at the index in front of it (8), we will move it forward.
 
