@@ -67,7 +67,7 @@ Next, a recursive call will be made on the right array [16, 15], it will be spli
 
 We will then move back up the call stack and Mergesort will be called with the parameters left[42], right [15, 16], arr [42, 16, 15]. The first value in the left array will be compared with the first value in the right array (8 & 4), since the right array value is smaller than the left array value it will be resorted as [15, 16, 42]
 
-Pass 3:
+Final Call:
 
 ![Merge](assets/merge.jpg)
 
