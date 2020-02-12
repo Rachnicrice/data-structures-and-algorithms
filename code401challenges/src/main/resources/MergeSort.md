@@ -88,7 +88,7 @@ Then 23 will be compared to 16 which is the next element in the right array. Sin
 
 And finally 23 will be compared to 42. Since 23 is smaller it will be assigned to arr. And since we have traversed the entirety of our left array, the remaining values in the right arr will be assigned to the end of arr.
 
-Finally, arr will look like this:
+Finally, arr will look like this:  
 [4, 8, 15, 16, 23, 42]
 
 
