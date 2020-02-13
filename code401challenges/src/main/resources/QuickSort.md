@@ -41,23 +41,16 @@ A quick sort is a sorting mechanism that reorganizes an array by dividing them a
 
 Input: [8, 4, 23, 42, 16, 15]
 
-Left Call:
+First Call:
+When quicksort is first called it will choose a pivot point (which in our algorithm will be the rightmost value of the input array). It will then compare all the values in the array from left to right, to the pivot to see if it's value is larger or smaller. If the element being compared is smaller than the pivot, it will be moved to the left of the pivot, if it is larger it will be moved to the right side of the pivot. After the first call of quicksort our array might look something like this:
 
-![Left Call](assets/left.jpg)
+![First Sort](assets/q1.jpg)
 
-When the call is made 
+Subsequent Calls:
 
-Right Call:
+Quicksort is a recursive function, so once the first sort has completed, quicksort will be called again on all the elements smaller than the pivot (everything on the left) and all the elements larger (all the elements on the right). It will then chose the rightmost element of this sub-array, and treat that as the new pivot. It will then sort the sub-array with items smaller to the left of the pivot, items larger to the right, and re-call quicksort on these two halves until the array is eventually completely sorted.
 
-![Right Call](assets/right.jpg)
-
-Once all 
-
-Last Call:
-
-![Merge](assets/merge.jpg)
-
-Once 
+![All the Sorts](assets/q2.jpg)
 
 
 ### Efficiency
