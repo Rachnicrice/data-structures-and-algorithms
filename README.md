@@ -263,3 +263,7 @@ This function is going to have an O(n) time complexity because it will need to c
 ## Merge Sort
 [A Walkthrough of Merge Sort](https://github.com/Rachnicrice/data-structures-and-algorithms/blob/master/code401challenges/src/main/resources/MergeSort.md)   
 [See Code Here](https://github.com/Rachnicrice/data-structures-and-algorithms/blob/master/code401challenges/src/main/java/code401challenges/Sorts/MergeSort.java)
+
+## Quick Sort
+[A Walkthrough of Merge Sort](https://github.com/Rachnicrice/data-structures-and-algorithms/blob/master/code401challenges/src/main/resources/QuickSort.md)   
+[See Code Here](https://github.com/Rachnicrice/data-structures-and-algorithms/blob/master/code401challenges/src/main/java/code401challenges/Sorts/QuickSort.java)
