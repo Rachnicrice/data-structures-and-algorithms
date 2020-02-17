@@ -1,5 +1,7 @@
 package code401challenges.hastable;
 
+import java.util.NoSuchElementException;
+
 public class Hashtable {
     //instance variables
     int size;
@@ -29,8 +31,24 @@ public class Hashtable {
     }
 
     public String get (String key) {
+        int idx = hash(key);
 
-        return "";
+        if (map[idx] != null) {
+            HashEntry current = map[idx];
+
+            while (!current.key.equals(key) && current.next != null){
+                current = current.next;
+            }
+
+            if (current.key.equals(key)) {
+                return current.value;
+            } else {
+                throw new NoSuchElementException("That's not in the hashtable!");
+            }
+
+        } else {
+            throw new NoSuchElementException("That's not in the hashtable!");
+        }
     }
 
     public Boolean contains (String key) {
