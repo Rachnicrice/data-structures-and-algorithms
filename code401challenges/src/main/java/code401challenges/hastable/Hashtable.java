@@ -54,6 +54,16 @@ public class Hashtable {
     public Boolean contains (String key) {
         int idx = hash(key);
 
+        if(map[idx] != null) {
+            HashEntry current = map[idx];
+
+            while (current.next != null && !current.key.equals(key)) {
+                current = current.next;
+            }
+
+            return current.key.equals(key);
+        }
+
         return false;
     }
 

@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="56a9d471-70c8-4a3f-a446-5067bad9a39c" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/code401challenges/hastable/Hashtable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/code401challenges/hastable/Hashtable.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
