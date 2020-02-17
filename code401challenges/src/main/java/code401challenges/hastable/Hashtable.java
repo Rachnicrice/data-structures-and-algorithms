@@ -19,14 +19,16 @@ public class Hashtable {
         int idx = hash(key);
         HashEntry hashEntry = new HashEntry(key, value);
 
-        if (map[idx] == null){
-            map[idx] = hashEntry;
-        } else {
-            HashEntry current = map[idx];
-            while (current.next != null) {
-                current = current.next;
+        if (!contains(key)) {
+            if (map[idx] == null){
+                map[idx] = hashEntry;
+            } else {
+                HashEntry current = map[idx];
+                while (current.next != null) {
+                    current = current.next;
+                }
+                current.next = hashEntry;
             }
-            current.next = hashEntry;
         }
     }
 
@@ -60,10 +62,8 @@ public class Hashtable {
             while (current.next != null && !current.key.equals(key)) {
                 current = current.next;
             }
-
             return current.key.equals(key);
         }
-
         return false;
     }
 
