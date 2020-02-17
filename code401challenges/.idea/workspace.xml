@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="56a9d471-70c8-4a3f-a446-5067bad9a39c" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/main/java/code401challenges/hastable/Hashtable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/code401challenges/hastable/Hashtable.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/code401challenges/hastable/HashEntry.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/code401challenges/hastable/HashEntry.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -79,13 +80,13 @@
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
   </component>
-  <component name="RunManager" selected="Gradle.QuickSortTest">
-    <configuration name="MergeSortTest.testMergesort_NearlySorted" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+  <component name="RunManager" selected="Gradle.HashEntryTest.testHashEntryConstructor">
+    <configuration name="HashEntryTest.testHashEntryConstructor" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;code401challenges.Sorts.MergeSortTest.testMergesort_NearlySorted&quot;" />
+        <option name="scriptParameters" value="--tests &quot;code401challenges.hashtable.HashEntryTest.testHashEntryConstructor&quot;" />
         <option name="taskDescriptions">
           <list />
         </option>
@@ -100,12 +101,12 @@
       <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="MergeSortTest.testMergesort_ReverseSorted" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="MergeSortTest.testMergesort_NearlySorted" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;code401challenges.Sorts.MergeSortTest.testMergesort_ReverseSorted&quot;" />
+        <option name="scriptParameters" value="--tests &quot;code401challenges.Sorts.MergeSortTest.testMergesort_NearlySorted&quot;" />
         <option name="taskDescriptions">
           <list />
         </option>
@@ -182,11 +183,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.HashEntryTest.testHashEntryConstructor" />
         <item itemvalue="Gradle.QuickSortTest" />
         <item itemvalue="Gradle.QuickSortTest.testQuickSort_UniqueValues" />
         <item itemvalue="Gradle.QuickSortTest.testQuickSort_DuplicateValues" />
         <item itemvalue="Gradle.MergeSortTest.testMergesort_NearlySorted" />
-        <item itemvalue="Gradle.MergeSortTest.testMergesort_ReverseSorted" />
       </list>
     </recent_temporary>
   </component>
