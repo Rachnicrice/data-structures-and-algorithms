@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="56a9d471-70c8-4a3f-a446-5067bad9a39c" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/main/resources/QuickSort.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/QuickSort.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/code401challenges/hashtable/HashtableTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/code401challenges/hashtable/HashtableTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -79,13 +80,13 @@
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
   </component>
-  <component name="RunManager" selected="Gradle.QuickSortTest">
-    <configuration name="MergeSortTest.testMergesort_NearlySorted" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+  <component name="RunManager" selected="Gradle.HashtableTest.testHash">
+    <configuration name="HashtableTest.testAddToHashtable_EmptyTable" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;code401challenges.Sorts.MergeSortTest.testMergesort_NearlySorted&quot;" />
+        <option name="scriptParameters" value="--tests &quot;code401challenges.hashtable.HashtableTest.testAddToHashtable_EmptyTable&quot;" />
         <option name="taskDescriptions">
           <list />
         </option>
@@ -100,12 +101,12 @@
       <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="MergeSortTest.testMergesort_ReverseSorted" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="HashtableTest.testAdd_ExpectedCollision" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;code401challenges.Sorts.MergeSortTest.testMergesort_ReverseSorted&quot;" />
+        <option name="scriptParameters" value="--tests &quot;code401challenges.hashtable.HashtableTest.testAdd_ExpectedCollision&quot;" />
         <option name="taskDescriptions">
           <list />
         </option>
@@ -120,12 +121,12 @@
       <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="QuickSortTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="HashtableTest.testGet_EmptyTable" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;code401challenges.Sorts.QuickSortTest&quot;" />
+        <option name="scriptParameters" value="--tests &quot;code401challenges.hashtable.HashtableTest.testGet_EmptyTable&quot;" />
         <option name="taskDescriptions">
           <list />
         </option>
@@ -140,12 +141,12 @@
       <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="QuickSortTest.testQuickSort_DuplicateValues" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="HashtableTest.testGet_ValueExists" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;code401challenges.Sorts.QuickSortTest.testQuickSort_DuplicateValues&quot;" />
+        <option name="scriptParameters" value="--tests &quot;code401challenges.hashtable.HashtableTest.testGet_ValueExists&quot;" />
         <option name="taskDescriptions">
           <list />
         </option>
@@ -160,12 +161,12 @@
       <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="QuickSortTest.testQuickSort_UniqueValues" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="HashtableTest.testHash" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;code401challenges.Sorts.QuickSortTest.testQuickSort_UniqueValues&quot;" />
+        <option name="scriptParameters" value="--tests &quot;code401challenges.hashtable.HashtableTest.testHash&quot;" />
         <option name="taskDescriptions">
           <list />
         </option>
@@ -182,11 +183,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Gradle.QuickSortTest" />
-        <item itemvalue="Gradle.QuickSortTest.testQuickSort_UniqueValues" />
-        <item itemvalue="Gradle.QuickSortTest.testQuickSort_DuplicateValues" />
-        <item itemvalue="Gradle.MergeSortTest.testMergesort_NearlySorted" />
-        <item itemvalue="Gradle.MergeSortTest.testMergesort_ReverseSorted" />
+        <item itemvalue="Gradle.HashtableTest.testHash" />
+        <item itemvalue="Gradle.HashtableTest.testAdd_ExpectedCollision" />
+        <item itemvalue="Gradle.HashtableTest.testGet_ValueExists" />
+        <item itemvalue="Gradle.HashtableTest.testGet_EmptyTable" />
+        <item itemvalue="Gradle.HashtableTest.testAddToHashtable_EmptyTable" />
       </list>
     </recent_temporary>
   </component>
@@ -245,34 +246,34 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="458" y="204" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1440.900@0.0.1440.900" timestamp="1580167773024" />
-    <state width="1398" height="241" key="GridCell.Tab.0.bottom" timestamp="1581614545064">
+    <state width="1398" height="241" key="GridCell.Tab.0.bottom" timestamp="1581973075390">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="241" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1581614545064" />
+    <state width="1398" height="241" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1581973075390" />
     <state width="1358" height="198" key="GridCell.Tab.0.bottom/0.23.1440.814@0.23.1440.814" timestamp="1578547536152" />
     <state width="1358" height="198" key="GridCell.Tab.0.bottom/0.23.1440.816@0.23.1440.816" timestamp="1578547657865" />
     <state width="1358" height="248" key="GridCell.Tab.0.bottom/0.23.1440.821@0.23.1440.821" timestamp="1578503402393" />
     <state width="1358" height="199" key="GridCell.Tab.0.bottom/0.23.1440.822@0.23.1440.822" timestamp="1578460029489" />
-    <state width="1398" height="241" key="GridCell.Tab.0.center" timestamp="1581614545063">
+    <state width="1398" height="241" key="GridCell.Tab.0.center" timestamp="1581973075389">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="241" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1581614545063" />
+    <state width="1398" height="241" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1581973075389" />
     <state width="1358" height="198" key="GridCell.Tab.0.center/0.23.1440.814@0.23.1440.814" timestamp="1578547536151" />
     <state width="1358" height="198" key="GridCell.Tab.0.center/0.23.1440.816@0.23.1440.816" timestamp="1578547657864" />
     <state width="1358" height="248" key="GridCell.Tab.0.center/0.23.1440.821@0.23.1440.821" timestamp="1578503402392" />
     <state width="1358" height="199" key="GridCell.Tab.0.center/0.23.1440.822@0.23.1440.822" timestamp="1578460029488" />
-    <state width="1398" height="241" key="GridCell.Tab.0.left" timestamp="1581614545062">
+    <state width="1398" height="241" key="GridCell.Tab.0.left" timestamp="1581973075388">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="241" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1581614545062" />
+    <state width="1398" height="241" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1581973075388" />
     <state width="1358" height="198" key="GridCell.Tab.0.left/0.23.1440.814@0.23.1440.814" timestamp="1578547536151" />
     <state width="1358" height="198" key="GridCell.Tab.0.left/0.23.1440.816@0.23.1440.816" timestamp="1578547657864" />
     <state width="1358" height="248" key="GridCell.Tab.0.left/0.23.1440.821@0.23.1440.821" timestamp="1578503402392" />
     <state width="1358" height="199" key="GridCell.Tab.0.left/0.23.1440.822@0.23.1440.822" timestamp="1578460029488" />
-    <state width="1398" height="241" key="GridCell.Tab.0.right" timestamp="1581614545063">
+    <state width="1398" height="241" key="GridCell.Tab.0.right" timestamp="1581973075389">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="241" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1581614545063" />
+    <state width="1398" height="241" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1581973075389" />
     <state width="1358" height="198" key="GridCell.Tab.0.right/0.23.1440.814@0.23.1440.814" timestamp="1578547536152" />
     <state width="1358" height="198" key="GridCell.Tab.0.right/0.23.1440.816@0.23.1440.816" timestamp="1578547657865" />
     <state width="1358" height="248" key="GridCell.Tab.0.right/0.23.1440.821@0.23.1440.821" timestamp="1578503402393" />
@@ -305,10 +306,10 @@
       <screen x="0" y="23" width="1440" height="816" />
     </state>
     <state x="515" y="220" key="chooseDestDirectoryDialog/0.23.1440.816@0.23.1440.816" timestamp="1578448222297" />
-    <state x="399" y="282" key="com.intellij.ide.util.TipDialog" timestamp="1581463050034">
+    <state x="399" y="282" key="com.intellij.ide.util.TipDialog" timestamp="1581959186920">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="399" y="282" key="com.intellij.ide.util.TipDialog/0.0.1440.900@0.0.1440.900" timestamp="1581463050034" />
+    <state x="399" y="282" key="com.intellij.ide.util.TipDialog/0.0.1440.900@0.0.1440.900" timestamp="1581959186920" />
     <state x="432" y="336" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD" timestamp="1578448311797">
       <screen x="0" y="23" width="1440" height="816" />
     </state>
