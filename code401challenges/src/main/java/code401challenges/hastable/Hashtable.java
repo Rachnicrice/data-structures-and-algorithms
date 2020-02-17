@@ -4,8 +4,8 @@ import java.util.NoSuchElementException;
 
 public class Hashtable {
     //instance variables
-    int size;
-    HashEntry[] map;
+    public int size;
+    public HashEntry[] map;
 
     //constructor function
     public Hashtable (int size) {

@@ -30,5 +30,18 @@ public class HashtableTest {
         table.add("heroo", "hello");
         assertEquals("hello", table.get("heroo"));
     }
-    
+
+    @Test
+    public void testAdd_ExpectedCollision () {
+        table.add("Sean", "my bf and bff");
+        table.add("Saen", "some weirdo");
+
+        assertEquals("some weirdo", table.get("Saen"));
+        assertEquals("my bf and bff", table.get("Sean"));
+    }
+
+    @Test
+    public void testHash () {
+        assertTrue(table.hash("oihfieuge") < table.map.length);
+    }
 }
