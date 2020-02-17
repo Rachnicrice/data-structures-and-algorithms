@@ -45,11 +45,11 @@ public class Hashtable {
             if (current.key.equals(key)) {
                 return current.value;
             } else {
-                throw new NoSuchElementException("That's not in the hashtable!");
+                return null;
             }
 
         } else {
-            throw new NoSuchElementException("That's not in the hashtable!");
+            return null;
         }
     }
 
@@ -68,7 +68,7 @@ public class Hashtable {
     }
 
     public int hash (String key) {
-        return key.hashCode() % this.size;
+        return Math.abs(key.hashCode() % this.size);
     }
 
 
