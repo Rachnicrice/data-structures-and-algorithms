@@ -71,5 +71,4 @@ public class Hashtable {
         return Math.abs(key.hashCode() % this.size);
     }
 
-
 }
