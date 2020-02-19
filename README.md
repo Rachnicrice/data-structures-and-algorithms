@@ -286,3 +286,19 @@ A hash table best case will have an O(1) lookup time (this is if only one value 
   - Takes in a key and hashes it for an index number. It will then check for HashEntrys at that index. If a HashEntry exists, it will iterate through the list of entries until it finds a HashEntry with a matching key. It will then return true. If no matching key is found it will return false.
 - hash
   - Takes in a key and returns the absolute value of the key once it's hashcode has been called and % the size of the array.
+  
+[See Code Here](https://github.com/Rachnicrice/data-structures-and-algorithms/tree/master/code401challenges/src/main/java/code401challenges/hastable)
+  
+## Challenge 17
+This challenge was to create a function that when given a string containing multiple words, would return the first repeated word in that string.
+
+## Approach & Efficiency
+I used a hashtable to store all the words in the string, and then iterated through the srting to find the first repeating word. Because this does require iterating through the string it has a runtime of O(n) where n is the number of words in the string.
+
+## API
+- repeatedWord
+  - Takes in a string. Creates an empty HashSet, then makes an array of all the words in the input string. Then for each word in the array, checks to see if it exists in the HashSet. If it does, return that word. If it does not, add the word to the HashSet and continue the loop.
+  
+[See Code Here](https://github.com/Rachnicrice/data-structures-and-algorithms/blob/master/code401challenges/src/main/java/code401challenges/RepeatedWord/RepeatedWord.java)
+![Whiteboard](assets/findWord.jpg)
+
