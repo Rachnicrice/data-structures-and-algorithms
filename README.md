@@ -302,3 +302,16 @@ I used a hashtable to store all the words in the string, and then iterated throu
 [See Code Here](https://github.com/Rachnicrice/data-structures-and-algorithms/blob/master/code401challenges/src/main/java/code401challenges/RepeatedWord/RepeatedWord.java)
 ![Whiteboard](assets/findWord.jpg)
 
+## Challenge 18
+This challenge was to create a function that would perform a left join on two hashtables.
+
+## Approach & Efficiency
+I decided to look through the first hashtable and use it's key to pull the values from it's hashtable and the other hashtable input (if a value existed for that key). I then concatenated the values and added them with the key to a new hashtable, which I returned at the end of the loop.
+
+## API
+- leftJoin
+  - Takes in two hashtables as parameters. Loops through the first hastable and uses each key to concatenate the values of the first and second hashtable. Then adds the concatenated values as an entry in a new hashtable. Return the new hastable with the concatenated values.
+  
+[See Code Here](https://github.com/Rachnicrice/data-structures-and-algorithms/blob/master/code401challenges/src/main/java/code401challenges/leftJoin/LeftJoin.java)
+![Whiteboard](assets/leftJoin.jpg)
+
