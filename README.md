@@ -332,3 +332,15 @@ I decided to add all the values from the first tree into a hashset. I would then
 [See Code Here](https://github.com/Rachnicrice/data-structures-and-algorithms/blob/master/code401challenges/src/main/java/code401challenges/TreeIntersection/TreeIntersection.java)
 ![Whiteboard](assets/treeIntersection.jpg)
 
+# Graphs
+The following code challenges all use graphs.
+
+## Challenge
+This challenege was to create an implementation of a graph, with addNode, addEdge, getNodes, getNeighbors, and size methods.
+
+## Approach & Efficiency
+I decided to use a hashmap to store all nodes in the graph, and a linked list to store all of their relationships.
+
+## API
+<!-- Description of each method publicly available in your Graph -->
+
