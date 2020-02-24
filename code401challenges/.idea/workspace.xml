@@ -79,13 +79,13 @@
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
   </component>
-  <component name="RunManager" selected="Gradle.leftJoinTest.testLeftJoin_NoMatchingKeys">
-    <configuration name="RepeatedWordTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+  <component name="RunManager" selected="Gradle.TreeIntersectionTest.testTreeIntersection_AllMatchingValues">
+    <configuration name="RepeatedWordTest.RepeatedWordTest_NoRepeatedWords" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;code401challenges.RepeatedWord.RepeatedWordTest&quot;" />
+        <option name="scriptParameters" value="--tests &quot;code401challenges.RepeatedWord.RepeatedWordTest.RepeatedWordTest_NoRepeatedWords&quot;" />
         <option name="taskDescriptions">
           <list />
         </option>
@@ -100,12 +100,12 @@
       <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="RepeatedWordTest.RepeatedWordTest_NoRepeatedWords" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="TreeIntersectionTest.testTreeIntersection_AllMatchingValues" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;code401challenges.RepeatedWord.RepeatedWordTest.RepeatedWordTest_NoRepeatedWords&quot;" />
+        <option name="scriptParameters" value="--tests &quot;code401challenges.TreeIntersection.TreeIntersectionTest.testTreeIntersection_AllMatchingValues&quot;" />
         <option name="taskDescriptions">
           <list />
         </option>
@@ -182,11 +182,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.TreeIntersectionTest.testTreeIntersection_AllMatchingValues" />
         <item itemvalue="Gradle.leftJoinTest.testLeftJoin_NoMatchingKeys" />
         <item itemvalue="Gradle.leftJoinTest.testLeftJoin_FewMatchingKeys" />
         <item itemvalue="Gradle.leftJoinTest.testLeftJoin_AllMatchingKeys" />
         <item itemvalue="Gradle.RepeatedWordTest.RepeatedWordTest_NoRepeatedWords" />
-        <item itemvalue="Gradle.RepeatedWordTest" />
       </list>
     </recent_temporary>
   </component>
@@ -245,34 +245,34 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="458" y="204" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1440.900@0.0.1440.900" timestamp="1580167773024" />
-    <state width="1398" height="241" key="GridCell.Tab.0.bottom" timestamp="1582176252247">
+    <state width="1398" height="241" key="GridCell.Tab.0.bottom" timestamp="1582218917125">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="241" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1582176252247" />
+    <state width="1398" height="241" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1582218917125" />
     <state width="1358" height="198" key="GridCell.Tab.0.bottom/0.23.1440.814@0.23.1440.814" timestamp="1578547536152" />
     <state width="1358" height="198" key="GridCell.Tab.0.bottom/0.23.1440.816@0.23.1440.816" timestamp="1578547657865" />
     <state width="1358" height="248" key="GridCell.Tab.0.bottom/0.23.1440.821@0.23.1440.821" timestamp="1578503402393" />
     <state width="1358" height="199" key="GridCell.Tab.0.bottom/0.23.1440.822@0.23.1440.822" timestamp="1578460029489" />
-    <state width="1398" height="241" key="GridCell.Tab.0.center" timestamp="1582176252243">
+    <state width="1398" height="241" key="GridCell.Tab.0.center" timestamp="1582218917124">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="241" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1582176252243" />
+    <state width="1398" height="241" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1582218917124" />
     <state width="1358" height="198" key="GridCell.Tab.0.center/0.23.1440.814@0.23.1440.814" timestamp="1578547536151" />
     <state width="1358" height="198" key="GridCell.Tab.0.center/0.23.1440.816@0.23.1440.816" timestamp="1578547657864" />
     <state width="1358" height="248" key="GridCell.Tab.0.center/0.23.1440.821@0.23.1440.821" timestamp="1578503402392" />
     <state width="1358" height="199" key="GridCell.Tab.0.center/0.23.1440.822@0.23.1440.822" timestamp="1578460029488" />
-    <state width="1398" height="241" key="GridCell.Tab.0.left" timestamp="1582176252229">
+    <state width="1398" height="241" key="GridCell.Tab.0.left" timestamp="1582218917124">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="241" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1582176252229" />
+    <state width="1398" height="241" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1582218917124" />
     <state width="1358" height="198" key="GridCell.Tab.0.left/0.23.1440.814@0.23.1440.814" timestamp="1578547536151" />
     <state width="1358" height="198" key="GridCell.Tab.0.left/0.23.1440.816@0.23.1440.816" timestamp="1578547657864" />
     <state width="1358" height="248" key="GridCell.Tab.0.left/0.23.1440.821@0.23.1440.821" timestamp="1578503402392" />
     <state width="1358" height="199" key="GridCell.Tab.0.left/0.23.1440.822@0.23.1440.822" timestamp="1578460029488" />
-    <state width="1398" height="241" key="GridCell.Tab.0.right" timestamp="1582176252246">
+    <state width="1398" height="241" key="GridCell.Tab.0.right" timestamp="1582218917125">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="241" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1582176252246" />
+    <state width="1398" height="241" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1582218917125" />
     <state width="1358" height="198" key="GridCell.Tab.0.right/0.23.1440.814@0.23.1440.814" timestamp="1578547536152" />
     <state width="1358" height="198" key="GridCell.Tab.0.right/0.23.1440.816@0.23.1440.816" timestamp="1578547657865" />
     <state width="1358" height="248" key="GridCell.Tab.0.right/0.23.1440.821@0.23.1440.821" timestamp="1578503402393" />
@@ -305,10 +305,11 @@
       <screen x="0" y="23" width="1440" height="816" />
     </state>
     <state x="515" y="220" key="chooseDestDirectoryDialog/0.23.1440.816@0.23.1440.816" timestamp="1578448222297" />
-    <state x="399" y="282" key="com.intellij.ide.util.TipDialog" timestamp="1582174128668">
-      <screen x="0" y="0" width="1440" height="900" />
+    <state x="399" y="278" key="com.intellij.ide.util.TipDialog" timestamp="1582387798214">
+      <screen x="0" y="23" width="1440" height="814" />
     </state>
     <state x="399" y="282" key="com.intellij.ide.util.TipDialog/0.0.1440.900@0.0.1440.900" timestamp="1582174128668" />
+    <state x="399" y="278" key="com.intellij.ide.util.TipDialog/0.23.1440.814@0.23.1440.814" timestamp="1582387798214" />
     <state x="432" y="336" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD" timestamp="1578448311797">
       <screen x="0" y="23" width="1440" height="816" />
     </state>
