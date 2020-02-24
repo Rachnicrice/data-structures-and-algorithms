@@ -28,11 +28,18 @@ public class GraphTest {
     public void testAddEdge () {
         graph.addNode(2);
         graph.addEdge(graph.map.getFirst(), node, 4);
+        int connectedNode = graph.map.getFirst().neighbors.getFirst().node.value;
+        int weight = graph.map.getFirst().neighbors.getFirst().weight;
+
+        assertEquals(6, connectedNode);
+        assertEquals(4, weight);
     }
 
     @Test
     public void testGetNodes () {
-
+        graph.addNode(2);
+        Object[] nodes = graph.getNodes().toArray();
+        assertTrue(nodes.length == 1);
     }
 
     @Test
