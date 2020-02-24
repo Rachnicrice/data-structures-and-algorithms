@@ -315,3 +315,20 @@ I decided to look through the first hashtable and use it's key to pull the value
 [See Code Here](https://github.com/Rachnicrice/data-structures-and-algorithms/blob/master/code401challenges/src/main/java/code401challenges/leftJoin/LeftJoin.java)
 ![Whiteboard](assets/leftJoin.jpg)
 
+## Challenge 19
+This challenge was to create a function that would return all matching values between two different input trees.
+
+## Approach & Efficiency
+I decided to add all the values from the first tree into a hashset. I would then do a breadth first travsersal of the second tree and check each node to see if it's value existed in the hashset. If the value did exist, I would add it to a separate hashset which I then returned at the end of the function.
+
+## API
+- tree_intersection
+  - Takes in two trees as parameters. Calls hashTree on the first tree, and then returns the result of findCommonValues passing in the second tree's root, the result of hashTree, and a new HashSet.
+- hashTree
+  - Takes in a node and a HashSet as parameters. Recursively calls itself on the node.left and node.right until all node values are added to the HashSet. Then returns the HashSet.
+- findCommonValues
+  - Takes in a node, hashset of keys and a new hashset as parameters. Checks if the node value exists in the HashSet of keys, if it does, add it's value to the new HashSet. Recursively calls itself on the node.left and node.right. Returns the new HashSet once the entire tree has been traversed.
+  
+[See Code Here](https://github.com/Rachnicrice/data-structures-and-algorithms/blob/master/code401challenges/src/main/java/code401challenges/TreeIntersection/TreeIntersection.java)
+![Whiteboard](assets/treeIntersection.jpg)
+
