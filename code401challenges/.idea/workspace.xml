@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="56a9d471-70c8-4a3f-a446-5067bad9a39c" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/code401challenges/graph/Graph.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/code401challenges/graph/Graph.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -305,10 +306,10 @@
       <screen x="0" y="23" width="1440" height="816" />
     </state>
     <state x="515" y="220" key="chooseDestDirectoryDialog/0.23.1440.816@0.23.1440.816" timestamp="1578448222297" />
-    <state x="399" y="280" key="com.intellij.ide.util.TipDialog" timestamp="1582506876550">
-      <screen x="0" y="23" width="1440" height="821" />
+    <state x="399" y="282" key="com.intellij.ide.util.TipDialog" timestamp="1582508991756">
+      <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="399" y="282" key="com.intellij.ide.util.TipDialog/0.0.1440.900@0.0.1440.900" timestamp="1582174128668" />
+    <state x="399" y="282" key="com.intellij.ide.util.TipDialog/0.0.1440.900@0.0.1440.900" timestamp="1582508991756" />
     <state x="399" y="278" key="com.intellij.ide.util.TipDialog/0.23.1440.814@0.23.1440.814" timestamp="1582387798214" />
     <state x="399" y="280" key="com.intellij.ide.util.TipDialog/0.23.1440.821@0.23.1440.821" timestamp="1582506876550" />
     <state x="432" y="336" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD" timestamp="1578448311797">
