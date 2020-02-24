@@ -342,5 +342,15 @@ This challenege was to create an implementation of a graph, with addNode, addEdg
 I decided to use a hashmap to store all nodes in the graph, and a linked list to store all of their relationships.
 
 ## API
-<!-- Description of each method publicly available in your Graph -->
-
+- addNode
+  - Takes in a value and uses that to create a new node. Then adds it to the list of nodes in the graph. Returns the added node.
+- addEdge
+  - Takes in two nodes to connect and a weight of the connection. Checks to make sure both nodes exist in the graph, if they do not exist it adds them to the graph, then creates an edge between each node.
+- getNodes
+  - Takes in no parameters. Returns the linked list which contains all the nodes in the graph.
+- getNeighbors
+  - Takes in a node as a parameter. Then grabs the list of neighbors for that node and adds them to a hashset with the connected node and the weight of the connection.
+- size
+  - Takes in no parameters. Returns the size of the linked list containing all the graph nodes.
+  
+[See Code Here](https://github.com/Rachnicrice/data-structures-and-algorithms/tree/master/code401challenges/src/main/java/code401challenges/graph)
