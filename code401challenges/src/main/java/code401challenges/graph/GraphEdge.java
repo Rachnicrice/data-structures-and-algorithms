@@ -3,7 +3,7 @@ package code401challenges.graph;
 public class GraphEdge<T> {
     //instance variables
     T weight;
-    GraphNode<T> node;
+    public GraphNode<T> node;
 
     //constructor function
     GraphEdge (GraphNode<T> node) {
