@@ -11,7 +11,7 @@ public class GraphEdge<T> {
         this.node = node;
     }
 
-    GraphEdge (GraphNode<T> node, T weight){
+    public GraphEdge(GraphNode<T> node, T weight){
         this.weight = weight;
         this.node = node;
     }

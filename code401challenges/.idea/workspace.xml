@@ -3,8 +3,11 @@
   <component name="ChangeListManager">
     <list default="true" id="56a9d471-70c8-4a3f-a446-5067bad9a39c" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/code401challenges/BreadthFirst/BreadthFirst.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/code401challenges/BreadthFirst/BreadthFirst.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/code401challenges/graph/Graph.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/code401challenges/graph/Graph.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/code401challenges/graph/GraphEdge.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/code401challenges/graph/GraphEdge.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/code401challenges/graph/GraphNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/code401challenges/graph/GraphNode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/code401challenges/BreadthFirst/BreadthFirstTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/code401challenges/BreadthFirst/BreadthFirstTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -81,13 +84,13 @@
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
   </component>
-  <component name="RunManager" selected="Gradle.GraphTest.testGetNodes">
-    <configuration name="GraphEdgeTest.testGraphEdgeConstructor" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+  <component name="RunManager" selected="Gradle.BreadthFirstTest.testBreadthFirst">
+    <configuration name="BreadthFirstTest.testBreadthFirst" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;code401challenges.graph.GraphEdgeTest.testGraphEdgeConstructor&quot;" />
+        <option name="scriptParameters" value="--tests &quot;code401challenges.BreadthFirst.BreadthFirstTest.testBreadthFirst&quot;" />
         <option name="taskDescriptions">
           <list />
         </option>
@@ -184,11 +187,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.BreadthFirstTest.testBreadthFirst" />
         <item itemvalue="Gradle.GraphTest.testGetNodes" />
         <item itemvalue="Gradle.GraphTest.testAddEdge" />
         <item itemvalue="Gradle.GraphTest.testGetSize" />
         <item itemvalue="Gradle.GraphTest.testAddNode" />
-        <item itemvalue="Gradle.GraphEdgeTest.testGraphEdgeConstructor" />
       </list>
     </recent_temporary>
   </component>

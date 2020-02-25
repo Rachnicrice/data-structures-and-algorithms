@@ -7,8 +7,8 @@ import java.util.*;
 
 public class BreadthFirst {
 
-    public static HashSet<GraphNode<Integer>> breadthFirst (GraphNode<Integer> node) {
-        HashSet<GraphNode<Integer>> allTheNodes = new HashSet<>();
+    public static LinkedList<GraphNode<Integer>> breadthFirst (GraphNode<Integer> node) {
+        LinkedList<GraphNode<Integer>> allTheNodes = new LinkedList<>();
         LinkedList<GraphNode<Integer>> nodesToVisit = new LinkedList<>();
         nodesToVisit.add(node);
 
@@ -17,10 +17,10 @@ public class BreadthFirst {
             allTheNodes.add(visiting);
             for (GraphEdge<Integer> neighbor : visiting.neighbors){
                 if (!allTheNodes.contains(neighbor.node)){
-                    nodesToVisit.add(neighbor.node);
+                    nodesToVisit.addLast(neighbor.node);
                 }
             };
-            al
+            nodesToVisit.removeFirst();
         }
 
         return allTheNodes;

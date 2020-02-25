@@ -8,10 +8,10 @@ import java.util.List;
 
 public class Graph<T> {
     //instance variables
-    LinkedList<GraphNode<T>> map;
+    public LinkedList<GraphNode<T>> map;
 
     //constructor function
-    Graph () {
+    public Graph() {
         this.map = new LinkedList<>();
     }
 
