@@ -335,7 +335,7 @@ I decided to add all the values from the first tree into a hashset. I would then
 # Graphs
 The following code challenges all use graphs.
 
-## Challenge
+## Challenge 20
 This challenege was to create an implementation of a graph, with addNode, addEdge, getNodes, getNeighbors, and size methods.
 
 ## Approach & Efficiency
@@ -354,3 +354,16 @@ I decided to use a hashmap to store all nodes in the graph, and a linked list to
   - Takes in no parameters. Returns the size of the linked list containing all the graph nodes.
   
 [See Code Here](https://github.com/Rachnicrice/data-structures-and-algorithms/tree/master/code401challenges/src/main/java/code401challenges/graph)
+
+## Challenge 21
+This challenege was to implement a breadth first travsersal of a graph
+
+## Approach & Efficiency
+I decided to use a linked list to keep track of the nodes I have visited, and a seperate list for the nodes I still have to visit. The time complexity of this application is O(n) time.
+
+## API
+- breadthFirst
+  - Takes in a node as a 'starting point'. It will then add it to a linked list of nodes to go look at. While the list is not empty, it will add the node's neighbors and then add the node to the list of visited nodes. It will then pop that node off the list and perform the same actions for the next node.
+  
+[See Code Here](https://github.com/Rachnicrice/data-structures-and-algorithms/blob/master/code401challenges/src/main/java/code401challenges/BreadthFirst/BreadthFirst.java)
+![Whiteboard](assets/bF.jpg)
