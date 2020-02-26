@@ -367,3 +367,16 @@ I decided to use a linked list to keep track of the nodes I have visited, and a 
   
 [See Code Here](https://github.com/Rachnicrice/data-structures-and-algorithms/blob/master/code401challenges/src/main/java/code401challenges/BreadthFirst/BreadthFirst.java)
 ![Whiteboard](assets/bF.jpg)
+
+## Challenge 22
+This challenege was to create a function which would return whether two nodes were connected and the weight of their connecting edge.
+
+## Approach & Efficiency
+I decided to return a Trip class which would contain a boolean of whether or not two nodes are connected and their weight. I loop through the graph until I find the starting node, and then check to see if one of it's neighbors is the destination. I then return a Trip object based on if I find the destination in the neighbor nodes or not. Because of this the time complexity is O(n).
+
+## API
+- flightPlan
+  - Takes in a graph and an array of places to go. It will look for the origin (the first string in the array) in the graph and then save all of it's neighbors in a list. It will then look through the neighbors for the destination (the second string in the array). After this if the neighbor is found it will return a trip with the weight of the connection, else it will return a trip with $0 weight for the connection.
+  
+[See Code Here](https://github.com/Rachnicrice/data-structures-and-algorithms/tree/master/code401challenges/src/main/java/code401challenges/GetEdge)
+![Whiteboard](assets/getEdge.jpg)
