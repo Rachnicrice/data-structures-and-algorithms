@@ -1,14 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="56a9d471-70c8-4a3f-a446-5067bad9a39c" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/code401challenges/BreadthFirst/BreadthFirst.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/code401challenges/BreadthFirst/BreadthFirst.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/code401challenges/graph/Graph.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/code401challenges/graph/Graph.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/code401challenges/graph/GraphEdge.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/code401challenges/graph/GraphEdge.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/code401challenges/graph/GraphNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/code401challenges/graph/GraphNode.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/code401challenges/BreadthFirst/BreadthFirstTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/code401challenges/BreadthFirst/BreadthFirstTest.java" afterDir="false" />
-    </list>
+    <list default="true" id="56a9d471-70c8-4a3f-a446-5067bad9a39c" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -84,7 +77,7 @@
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
   </component>
-  <component name="RunManager" selected="Gradle.BreadthFirstTest.testBreadthFirst">
+  <component name="RunManager" selected="Gradle.GetEdgeTest.testGetEdge_MultipleEdgesConnected">
     <configuration name="BreadthFirstTest.testBreadthFirst" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -105,12 +98,12 @@
       <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="GraphTest.testAddEdge" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="GetEdgeTest.testGetEdge_EdgeExists" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;code401challenges.graph.GraphTest.testAddEdge&quot;" />
+        <option name="scriptParameters" value="--tests &quot;code401challenges.GetEdge.GetEdgeTest.testGetEdge_EdgeExists&quot;" />
         <option name="taskDescriptions">
           <list />
         </option>
@@ -125,12 +118,12 @@
       <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="GraphTest.testAddNode" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="GetEdgeTest.testGetEdge_MultipleEdgesConnected" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;code401challenges.graph.GraphTest.testAddNode&quot;" />
+        <option name="scriptParameters" value="--tests &quot;code401challenges.GetEdge.GetEdgeTest.testGetEdge_MultipleEdgesConnected&quot;" />
         <option name="taskDescriptions">
           <list />
         </option>
@@ -145,12 +138,12 @@
       <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="GraphTest.testGetNodes" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="GetEdgeTest.testGetEdge_MultipleEdgesNotConnected" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;code401challenges.graph.GraphTest.testGetNodes&quot;" />
+        <option name="scriptParameters" value="--tests &quot;code401challenges.GetEdge.GetEdgeTest.testGetEdge_MultipleEdgesNotConnected&quot;" />
         <option name="taskDescriptions">
           <list />
         </option>
@@ -165,12 +158,12 @@
       <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="GraphTest.testGetSize" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="GetEdgeTest.testGetEdge_NoEdgeExists" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;code401challenges.graph.GraphTest.testGetSize&quot;" />
+        <option name="scriptParameters" value="--tests &quot;code401challenges.GetEdge.GetEdgeTest.testGetEdge_NoEdgeExists&quot;" />
         <option name="taskDescriptions">
           <list />
         </option>
@@ -187,11 +180,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.GetEdgeTest.testGetEdge_MultipleEdgesConnected" />
+        <item itemvalue="Gradle.GetEdgeTest.testGetEdge_MultipleEdgesNotConnected" />
+        <item itemvalue="Gradle.GetEdgeTest.testGetEdge_NoEdgeExists" />
+        <item itemvalue="Gradle.GetEdgeTest.testGetEdge_EdgeExists" />
         <item itemvalue="Gradle.BreadthFirstTest.testBreadthFirst" />
-        <item itemvalue="Gradle.GraphTest.testGetNodes" />
-        <item itemvalue="Gradle.GraphTest.testAddEdge" />
-        <item itemvalue="Gradle.GraphTest.testGetSize" />
-        <item itemvalue="Gradle.GraphTest.testAddNode" />
       </list>
     </recent_temporary>
   </component>
@@ -250,34 +243,34 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="458" y="204" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1440.900@0.0.1440.900" timestamp="1580167773024" />
-    <state width="1398" height="241" key="GridCell.Tab.0.bottom" timestamp="1582573120901">
+    <state width="1398" height="241" key="GridCell.Tab.0.bottom" timestamp="1582742937636">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="241" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1582573120901" />
+    <state width="1398" height="241" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1582742937636" />
     <state width="1358" height="198" key="GridCell.Tab.0.bottom/0.23.1440.814@0.23.1440.814" timestamp="1578547536152" />
     <state width="1358" height="198" key="GridCell.Tab.0.bottom/0.23.1440.816@0.23.1440.816" timestamp="1578547657865" />
     <state width="1358" height="248" key="GridCell.Tab.0.bottom/0.23.1440.821@0.23.1440.821" timestamp="1578503402393" />
     <state width="1358" height="199" key="GridCell.Tab.0.bottom/0.23.1440.822@0.23.1440.822" timestamp="1578460029489" />
-    <state width="1398" height="241" key="GridCell.Tab.0.center" timestamp="1582573120899">
+    <state width="1398" height="241" key="GridCell.Tab.0.center" timestamp="1582742937635">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="241" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1582573120899" />
+    <state width="1398" height="241" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1582742937635" />
     <state width="1358" height="198" key="GridCell.Tab.0.center/0.23.1440.814@0.23.1440.814" timestamp="1578547536151" />
     <state width="1358" height="198" key="GridCell.Tab.0.center/0.23.1440.816@0.23.1440.816" timestamp="1578547657864" />
     <state width="1358" height="248" key="GridCell.Tab.0.center/0.23.1440.821@0.23.1440.821" timestamp="1578503402392" />
     <state width="1358" height="199" key="GridCell.Tab.0.center/0.23.1440.822@0.23.1440.822" timestamp="1578460029488" />
-    <state width="1398" height="241" key="GridCell.Tab.0.left" timestamp="1582573120898">
+    <state width="1398" height="241" key="GridCell.Tab.0.left" timestamp="1582742937635">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="241" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1582573120898" />
+    <state width="1398" height="241" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1582742937635" />
     <state width="1358" height="198" key="GridCell.Tab.0.left/0.23.1440.814@0.23.1440.814" timestamp="1578547536151" />
     <state width="1358" height="198" key="GridCell.Tab.0.left/0.23.1440.816@0.23.1440.816" timestamp="1578547657864" />
     <state width="1358" height="248" key="GridCell.Tab.0.left/0.23.1440.821@0.23.1440.821" timestamp="1578503402392" />
     <state width="1358" height="199" key="GridCell.Tab.0.left/0.23.1440.822@0.23.1440.822" timestamp="1578460029488" />
-    <state width="1398" height="241" key="GridCell.Tab.0.right" timestamp="1582573120900">
+    <state width="1398" height="241" key="GridCell.Tab.0.right" timestamp="1582742937636">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="241" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1582573120900" />
+    <state width="1398" height="241" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1582742937636" />
     <state width="1358" height="198" key="GridCell.Tab.0.right/0.23.1440.814@0.23.1440.814" timestamp="1578547536152" />
     <state width="1358" height="198" key="GridCell.Tab.0.right/0.23.1440.816@0.23.1440.816" timestamp="1578547657865" />
     <state width="1358" height="248" key="GridCell.Tab.0.right/0.23.1440.821@0.23.1440.821" timestamp="1578503402393" />
@@ -310,11 +303,12 @@
       <screen x="0" y="23" width="1440" height="816" />
     </state>
     <state x="515" y="220" key="chooseDestDirectoryDialog/0.23.1440.816@0.23.1440.816" timestamp="1578448222297" />
-    <state x="399" y="282" key="com.intellij.ide.util.TipDialog" timestamp="1582603770428">
-      <screen x="0" y="0" width="1440" height="900" />
+    <state x="399" y="279" key="com.intellij.ide.util.TipDialog" timestamp="1582739804263">
+      <screen x="0" y="23" width="1440" height="816" />
     </state>
     <state x="399" y="282" key="com.intellij.ide.util.TipDialog/0.0.1440.900@0.0.1440.900" timestamp="1582603770428" />
     <state x="399" y="278" key="com.intellij.ide.util.TipDialog/0.23.1440.814@0.23.1440.814" timestamp="1582387798214" />
+    <state x="399" y="279" key="com.intellij.ide.util.TipDialog/0.23.1440.816@0.23.1440.816" timestamp="1582739804263" />
     <state x="399" y="280" key="com.intellij.ide.util.TipDialog/0.23.1440.821@0.23.1440.821" timestamp="1582506876550" />
     <state x="432" y="336" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD" timestamp="1578448311797">
       <screen x="0" y="23" width="1440" height="816" />
