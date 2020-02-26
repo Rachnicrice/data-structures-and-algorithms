@@ -31,4 +31,38 @@ public class GetEdgeTest {
         assertEquals(expected.direct, actual.direct);
         assertEquals(expected.cost, actual.cost);
     }
+
+    @Test
+    public void testGetEdge_NoEdgeExists() {
+        input = new String[] {"Gotham", "Arendelle"};
+        Trip expected = new Trip(false, "$0");
+        Trip actual = GetEdge.flightPlan(graph, input);
+
+        assertEquals(expected.direct, actual.direct);
+        assertEquals(expected.cost, actual.cost);
+    }
+
+    @Test
+    public void testGetEdge_MultipleEdgesNotConnected() {
+        graph.addEdge(new GraphNode<>("Narnia"), new GraphNode<>("Naboo"), "$250");
+        input = new String[] {"Narnia", "Pandora"};
+
+        Trip expected = new Trip(false, "$0");
+        Trip actual = GetEdge.flightPlan(graph, input);
+
+        assertEquals(expected.direct, actual.direct);
+        assertEquals(expected.cost, actual.cost);
+    }
+
+    @Test
+    public void testGetEdge_MultipleEdgesConnected() {
+        graph.addEdge(new GraphNode<>("Narnia"), new GraphNode<>("Naboo"), "$250");
+        input = new String[] {"Narnia", "Naboo"};
+
+        Trip expected = new Trip(true, "$250");
+        Trip actual = GetEdge.flightPlan(graph, input);
+
+        assertEquals(expected.direct, actual.direct);
+        assertEquals(expected.cost, actual.cost);
+    }
 }
