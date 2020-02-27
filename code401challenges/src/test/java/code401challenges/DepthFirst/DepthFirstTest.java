@@ -8,32 +8,19 @@ import org.junit.Test;
 
 import java.util.LinkedList;
 
-import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.*;
 
 public class DepthFirstTest {
     Graph<String> graph;
+    GraphNode<String> node;
 
     @Before
     public void setUp () {
         graph = new Graph<>();
 
-        graph.addNode("a");
+        node = graph.addNode("a");
         graph.addEdge(graph.map.getFirst(), new GraphNode<>("b"), "c");
     }
-
-    @Test
-    public void testDepthFirst () {
-        LinkedList<GraphNode<String>> actual = DepthFirst.DepthFirst(graph.map.getFirst().neighbors);
-
-        for (int i = 0; i < actual.size(); i++) {
-            if (i == 0) {
-                String value = actual.get(i).value;
-                assertEquals("a", value);
-            } else if (i == 1) {
-                String value = actual.get(i).value;
-                assertEquals("c", value);
-            }
-        }
-    }
+    
 
 }
