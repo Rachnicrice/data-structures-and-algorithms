@@ -380,3 +380,16 @@ I decided to return a Trip class which would contain a boolean of whether or not
   
 [See Code Here](https://github.com/Rachnicrice/data-structures-and-algorithms/tree/master/code401challenges/src/main/java/code401challenges/GetEdge)
 ![Whiteboard](assets/getEdge.jpg)
+
+## Challenge 23
+This challenege was to create a function which would perform a depth first traversal of a graph.
+
+## Approach & Efficiency
+I decided to keep track of the nodes that I had visited using a stack. As soon as I visited a node, I would add it to a stack and then visit it's first neighbor. Once I had visited all of a nodes neighbors I would pop it off the stack and add it to a list of the nodes I had visited, which I then returned at the end of the function.
+
+## API
+- depthFirst
+  - Takes in a graph. It will then grab the first Node or vertex in the graph and add it to a stack of visited nodes. While that stack is not empty, I will look at the node's neighbors and check if they have been visited yet. If they have not, I will add them to the visited stack and check their neighbors. Once all of the neighbors of a node have been finished I will pop it off the stack and add it to my final linked list. I then return the list which contains the nodes I visited in the order I visited them.
+  
+[See Code Here](https://github.com/Rachnicrice/data-structures-and-algorithms/blob/master/code401challenges/src/main/java/code401challenges/DepthFirst/DepthFirst.java)
+![Whiteboard](assets/depthFirst.jpg)
