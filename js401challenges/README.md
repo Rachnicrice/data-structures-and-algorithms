@@ -7,4 +7,4 @@ I decided to create a new array instead of modifying the existing one.
 ## Solution
 I first found the midpoint of the input array, then I copied the first half of the input array into my new array. At the midpoint I added the value to my new array, then finally I copied the remainder of the input array.
 
-![Whiteboard]()
+![Whiteboard](../../assets/array-insert-shift.png)
