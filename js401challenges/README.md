@@ -18,4 +18,4 @@ A binary search is O(log n) time efficiency. In order to perform the binary sear
 
 ## Solution
 Inside a while loop, I found the middle of my search range by dividing the length of the array-1 by 2. I shrank my range by 1 if the middle value did not match the search key. Rinse and repeat, comparing the search key to the character in the middle of each new range. If the key wasn't found by the time the search range reached 0, -1 would be returned. (The search range being the length of my shortened array).
-![Whiteboard](../assets/array-binary-search-js)
+![Whiteboard](../assets/array-binary-search-js.png)
