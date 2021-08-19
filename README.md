@@ -267,3 +267,129 @@ This function is going to have an O(n) time complexity because it will need to c
 ## Quick Sort
 [A Walkthrough of Quick Sort](https://github.com/Rachnicrice/data-structures-and-algorithms/blob/master/code401challenges/src/main/resources/QuickSort.md)   
 [See Code Here](https://github.com/Rachnicrice/data-structures-and-algorithms/blob/master/code401challenges/src/main/java/code401challenges/Sorts/QuickSort.java)
+
+# Hashtables
+The following code challenges all hashtables.
+
+## Challenge 16
+This challenge was to implement a Hashtable with add, get, contains, and hash methods.
+
+## Approach & Efficiency
+A hash table best case will have an O(1) lookup time (this is if only one value exists at that location in the hashtable. If there are mutile entries at the same location in the hashtable it will be an O(n) lookup time to find the correct key/value pair.
+
+## API
+- add
+  - Takes in a key and a value, it will create a new HashEntry using these values, then it will get an index number by hashing the key. It will check the index number, if no values exist at this index the HashEntry will be inserted here. If other values do exist, the HashEntry will be added to the end of the list of values.
+- get
+  - Takes in a key and hashes it for an index number. It will then check for HashEntrys at that index. If a HashEntry exists, it will iterate through the list of entries until it finds a HashEntry with a matching key. It will then return the value of that HashEntry.
+- contains
+  - Takes in a key and hashes it for an index number. It will then check for HashEntrys at that index. If a HashEntry exists, it will iterate through the list of entries until it finds a HashEntry with a matching key. It will then return true. If no matching key is found it will return false.
+- hash
+  - Takes in a key and returns the absolute value of the key once it's hashcode has been called and % the size of the array.
+  
+[See Code Here](https://github.com/Rachnicrice/data-structures-and-algorithms/tree/master/code401challenges/src/main/java/code401challenges/hastable)
+  
+## Challenge 17
+This challenge was to create a function that when given a string containing multiple words, would return the first repeated word in that string.
+
+## Approach & Efficiency
+I used a hashtable to store all the words in the string, and then iterated through the srting to find the first repeating word. Because this does require iterating through the string it has a runtime of O(n) where n is the number of words in the string.
+
+## API
+- repeatedWord
+  - Takes in a string. Creates an empty HashSet, then makes an array of all the words in the input string. Then for each word in the array, checks to see if it exists in the HashSet. If it does, return that word. If it does not, add the word to the HashSet and continue the loop.
+  
+[See Code Here](https://github.com/Rachnicrice/data-structures-and-algorithms/blob/master/code401challenges/src/main/java/code401challenges/RepeatedWord/RepeatedWord.java)
+![Whiteboard](assets/findWord.jpg)
+
+## Challenge 18
+This challenge was to create a function that would perform a left join on two hashtables.
+
+## Approach & Efficiency
+I decided to look through the first hashtable and use it's key to pull the values from it's hashtable and the other hashtable input (if a value existed for that key). I then concatenated the values and added them with the key to a new hashtable, which I returned at the end of the loop.
+
+## API
+- leftJoin
+  - Takes in two hashtables as parameters. Loops through the first hastable and uses each key to concatenate the values of the first and second hashtable. Then adds the concatenated values as an entry in a new hashtable. Return the new hastable with the concatenated values.
+  
+[See Code Here](https://github.com/Rachnicrice/data-structures-and-algorithms/blob/master/code401challenges/src/main/java/code401challenges/leftJoin/LeftJoin.java)
+![Whiteboard](assets/leftJoin.jpg)
+
+## Challenge 19
+This challenge was to create a function that would return all matching values between two different input trees.
+
+## Approach & Efficiency
+I decided to add all the values from the first tree into a hashset. I would then do a breadth first travsersal of the second tree and check each node to see if it's value existed in the hashset. If the value did exist, I would add it to a separate hashset which I then returned at the end of the function.
+
+## API
+- tree_intersection
+  - Takes in two trees as parameters. Calls hashTree on the first tree, and then returns the result of findCommonValues passing in the second tree's root, the result of hashTree, and a new HashSet.
+- hashTree
+  - Takes in a node and a HashSet as parameters. Recursively calls itself on the node.left and node.right until all node values are added to the HashSet. Then returns the HashSet.
+- findCommonValues
+  - Takes in a node, hashset of keys and a new hashset as parameters. Checks if the node value exists in the HashSet of keys, if it does, add it's value to the new HashSet. Recursively calls itself on the node.left and node.right. Returns the new HashSet once the entire tree has been traversed.
+  
+[See Code Here](https://github.com/Rachnicrice/data-structures-and-algorithms/blob/master/code401challenges/src/main/java/code401challenges/TreeIntersection/TreeIntersection.java)
+![Whiteboard](assets/treeIntersection.jpg)
+
+# Graphs
+The following code challenges all use graphs.
+
+## Challenge 20
+This challenege was to create an implementation of a graph, with addNode, addEdge, getNodes, getNeighbors, and size methods.
+
+## Approach & Efficiency
+I decided to use a hashmap to store all nodes in the graph, and a linked list to store all of their relationships.
+
+## API
+- addNode
+  - Takes in a value and uses that to create a new node. Then adds it to the list of nodes in the graph. Returns the added node.
+- addEdge
+  - Takes in two nodes to connect and a weight of the connection. Checks to make sure both nodes exist in the graph, if they do not exist it adds them to the graph, then creates an edge between each node.
+- getNodes
+  - Takes in no parameters. Returns the linked list which contains all the nodes in the graph.
+- getNeighbors
+  - Takes in a node as a parameter. Then grabs the list of neighbors for that node and adds them to a hashset with the connected node and the weight of the connection.
+- size
+  - Takes in no parameters. Returns the size of the linked list containing all the graph nodes.
+  
+[See Code Here](https://github.com/Rachnicrice/data-structures-and-algorithms/tree/master/code401challenges/src/main/java/code401challenges/graph)
+
+## Challenge 21
+This challenege was to implement a breadth first travsersal of a graph
+
+## Approach & Efficiency
+I decided to use a linked list to keep track of the nodes I have visited, and a seperate list for the nodes I still have to visit. The time complexity of this application is O(n) time.
+
+## API
+- breadthFirst
+  - Takes in a node as a 'starting point'. It will then add it to a linked list of nodes to go look at. While the list is not empty, it will add the node's neighbors and then add the node to the list of visited nodes. It will then pop that node off the list and perform the same actions for the next node.
+  
+[See Code Here](https://github.com/Rachnicrice/data-structures-and-algorithms/blob/master/code401challenges/src/main/java/code401challenges/BreadthFirst/BreadthFirst.java)
+![Whiteboard](assets/bF.jpg)
+
+## Challenge 22
+This challenege was to create a function which would return whether two nodes were connected and the weight of their connecting edge.
+
+## Approach & Efficiency
+I decided to return a Trip class which would contain a boolean of whether or not two nodes are connected and their weight. I loop through the graph until I find the starting node, and then check to see if one of it's neighbors is the destination. I then return a Trip object based on if I find the destination in the neighbor nodes or not. Because of this the time complexity is O(n).
+
+## API
+- flightPlan
+  - Takes in a graph and an array of places to go. It will look for the origin (the first string in the array) in the graph and then save all of it's neighbors in a list. It will then look through the neighbors for the destination (the second string in the array). After this if the neighbor is found it will return a trip with the weight of the connection, else it will return a trip with $0 weight for the connection.
+  
+[See Code Here](https://github.com/Rachnicrice/data-structures-and-algorithms/tree/master/code401challenges/src/main/java/code401challenges/GetEdge)
+![Whiteboard](assets/getEdge.jpg)
+
+## Challenge 23
+This challenege was to create a function which would perform a depth first traversal of a graph.
+
+## Approach & Efficiency
+I decided to keep track of the nodes that I had visited using a stack. As soon as I visited a node, I would add it to a stack and then visit it's first neighbor. Once I had visited all of a nodes neighbors I would pop it off the stack and add it to a list of the nodes I had visited, which I then returned at the end of the function.
+
+## API
+- depthFirst
+  - Takes in a graph. It will then grab the first Node or vertex in the graph and add it to a stack of visited nodes. While that stack is not empty, I will look at the node's neighbors and check if they have been visited yet. If they have not, I will add them to the visited stack and check their neighbors. Once all of the neighbors of a node have been finished I will pop it off the stack and add it to my final linked list. I then return the list which contains the nodes I visited in the order I visited them.
+  
+[See Code Here](https://github.com/Rachnicrice/data-structures-and-algorithms/blob/master/code401challenges/src/main/java/code401challenges/DepthFirst/DepthFirst.java)
+![Whiteboard](assets/depthFirst.jpg)
