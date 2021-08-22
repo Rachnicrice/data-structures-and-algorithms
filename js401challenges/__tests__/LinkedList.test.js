@@ -32,12 +32,30 @@ describe('Linked List Class', () => {
 
   it('can turn linked list into a sting containing all values', () => {
     let list = new LinkedList();
-    list.insert("z");
-    list.insert("w");
-    list.insert("x");
+    list.insert('z');
+    list.insert('w');
+    list.insert('x');
 
     let expected = '{x} -> {w} -> {z} -> NULL';
 
     expect(expected).toEqual(list.toString());
   });
+
+  it('returns true when value is in linked list', () => {
+    let list = new LinkedList();
+    list.insert('z');
+    list.insert('w');
+    list.insert('x');
+
+    expect(list.includes('w')).toEqual(true);
+  });
+
+  it('returns false when value is not in the linked list', () => {
+    let list = new LinkedList();
+    list.insert('z');
+    list.insert('w');
+    list.insert('x');
+
+    expect(list.includes('a')).toEqual(false);
+  })
 })
