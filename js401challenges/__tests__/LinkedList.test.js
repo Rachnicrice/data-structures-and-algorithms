@@ -57,5 +57,61 @@ describe('Linked List Class', () => {
     list.insert('x');
 
     expect(list.includes('a')).toEqual(false);
-  })
+  });
+
+  it('can append a value', () => {
+    let list = new LinkedList()
+    list.insert('a');
+    list.append('b');
+    expect(list.head.value).toEqual('a');
+  });
+
+  it('can append multiple values', () => {
+    let list = new LinkedList()
+    list.insert('a');
+    list.append('b');
+    list.append('c')
+    expect(list.head.value).toEqual('a');
+    expect(list.head.next.value).toEqual('b');
+  });
+
+  it('can insert a node before a node in the middle of a linked list', () => {
+    let list = new LinkedList();
+    list.insert('z');
+    list.insert('w');
+    list.insert('x');
+    list.insertBefore('w', 'a');
+
+    expect(list.head.next.value).toEqual('a');
+  });
+
+  it('can insert a node before the head of a linked list', () => {
+    let list = new LinkedList();
+    list.insert('z');
+    list.insert('w');
+    list.insert('x');
+    list.insertBefore('x', 'a');
+
+    expect(list.head.value).toEqual('a');
+  });
+
+  it('can inert a node after a node in the middle of a linked list', () => {
+    let list = new LinkedList();
+    list.insert('z');
+    list.insert('w');
+    list.insert('x');
+    list.insertAfter('w', 'a');
+
+    expect(list.head.next.next.value).toEqual('a');
+  });
+
+  it('can insert a node after the last node in a linked list', () => {
+    let list = new LinkedList();
+    list.insert('z');
+    list.insert('w');
+    list.insert('x');
+    list.insertAfter('a');
+
+    expect(list.head.next.next.next.value).toEqual('a');
+  });
 })
