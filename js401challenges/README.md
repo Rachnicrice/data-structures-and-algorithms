@@ -58,3 +58,16 @@ insertAfter -
 Takes in a string new value and search key and iterates through the linked list until the search key is found, then creates a new Node with the new value and makes the current Node point to the new Node, and the new Node point to the current Node.next.
 
 [See Code Here](./LinkedList/LinkedList.js)
+-----------------------------------------------
+## Challenge 06
+The problem domain for this challenge was to create a method that took in a number (k) and returned the value of the Node kth from the end of the linked list.
+
+## Approach & Efficiency
+Because signly linked lists only point to the next node in the list there is unfortunately no way to loop backwards. Because of this it is an O(n) efficiency.
+
+## API
+The LinkedList class currently has the following public methods:
+ - llKthFromEnd
+  - Takes in an int(k) and returns the value of the Node that number(k) from the end of the linked list.
+ 
+![Whiteboard](assets/llkthfromend.jpg)
