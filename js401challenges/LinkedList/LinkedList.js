@@ -102,6 +102,23 @@ class LinkedList {
     }
   }
 
+  kthFromEnd (k) {
+    let currentNode = this.head;
+    let wantedNodeValue = '';
+    let kNodeLocation = this.size() - k;
+
+    if (kNodeLocation >= 0 && kNodeLocation <= this.size()) {
+      for(let i = 1; i < k; i++) {
+        currentNode = currentNode.next;
+      }
+      wantedNodeValue = currentNode.value;
+    } else {
+      throw new Error('Input k cannot be greater than list length');
+    }
+
+    return wantedNodeValue;
+}
+
 }
 
 module.exports = LinkedList;
