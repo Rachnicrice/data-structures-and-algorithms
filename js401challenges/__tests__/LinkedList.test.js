@@ -114,4 +114,50 @@ describe('Linked List Class', () => {
 
     expect(list.head.next.next.next.value).toEqual('a');
   });
+
+  it('can return a node when k is greater than the length of the list', () => {
+    let list = new LinkedList();
+    list.insert('a');
+    list.append('c');
+    let kth = list.llKthFromEnd(3);
+
+    expect(kth).toEqual('a');
+  });
+
+  it('can return a node when k is equal to the length of the list', () => {
+    let list = new LinkedList();
+    list.insert('a');
+    list.append('c');
+    let kth = list.llKthFromEnd(2);
+
+    expect(kth).toEqual('c');
+  });
+
+  it('can return a node when k is a negative number', () => {
+    let list = new LinkedList();
+    list.insert('a');
+    list.append('c');
+    let kth = list.llKthFromEnd(-1);
+
+    expect(kth).toEqual('a');
+  });
+
+  it('can return a node when the linked list has only one node', () => {
+    let list = new LinkedList();
+    list.insert('a');
+    let kth = list.llKthFromEnd(4);
+
+    expect(kth).toEqual('a');
+  });
+
+  it('can return a node when k is in the middle of the linked list', () => {
+    let list = new LinkedList();
+    list.insert('a');
+    list.append('b');
+    list.append('c');
+    let kth = list.llKthFromEnd(1);
+
+    expect(kth).toEqual('b');
+  });
+
 })

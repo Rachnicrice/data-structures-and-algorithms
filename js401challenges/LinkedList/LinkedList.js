@@ -117,7 +117,7 @@ class LinkedList {
     }
 
     return wantedNodeValue;
-}
+  }
 
 }
 
