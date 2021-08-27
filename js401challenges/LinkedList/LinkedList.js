@@ -130,6 +130,19 @@ class LinkedList {
     return wantedNodeValue;
   }
 
+  zip (headA, headB) {
+    if (headA === null) {
+      return headB;
+    } else if (headB === null) {
+      return headA;
+    } else {
+      let makeItRecursive = this.zip(headA.next, headB.next);
+      headB.next = makeItRecursive;
+      headA.next = headB;
+      return headA;
+    }
+  }
+
 }
 
 module.exports = LinkedList;
