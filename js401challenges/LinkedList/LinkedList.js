@@ -102,6 +102,17 @@ class LinkedList {
     }
   }
 
+  size () {
+    let numberOfNodes = 0;
+    let currentNode = this.head;
+
+    while (currentNode !== null) {
+      numberOfNodes++;
+      currentNode = currentNode.next;
+    }
+    return numberOfNodes;
+  }
+
   kthFromEnd (k) {
     let currentNode = this.head;
     let wantedNodeValue = '';
