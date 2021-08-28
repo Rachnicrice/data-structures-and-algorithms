@@ -160,4 +160,31 @@ describe('Linked List Class', () => {
     expect(kth).toEqual('b');
   });
 
+  it('can zip linked lists of equal length', () => {
+    let testListA = new LinkedList();
+    testListA.insert('a');
+
+    let testListB = new LinkedList();
+    testListB.insert('b');
+
+    let actual = LinkedList.mergeList(testListA, testListB);
+
+    expect(actual.head.value).toEqual('a')
+    expect(actual.head.value).toEqual('b')
+  })
+
+  it('can zip linked lists of unequal length', () => {
+    let testListA = new LinkedList();
+    testListA.insert('a');
+    testListA.append('c');
+
+    let testListB = new LinkedList();
+    testListB.insert('b');
+
+    let actual = LinkedList.mergeList(testListA, testListB);
+
+    expect(actual.head.value).toEqual('a')
+    expect(actual.head.value).toEqual('b')
+  })
+
 })

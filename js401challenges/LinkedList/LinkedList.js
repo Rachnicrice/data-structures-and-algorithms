@@ -102,6 +102,17 @@ class LinkedList {
     }
   }
 
+  size () {
+    let numberOfNodes = 0;
+    let currentNode = this.head;
+
+    while (currentNode !== null) {
+      numberOfNodes++;
+      currentNode = currentNode.next;
+    }
+    return numberOfNodes;
+  }
+
   kthFromEnd (k) {
     let currentNode = this.head;
     let wantedNodeValue = '';
@@ -117,6 +128,19 @@ class LinkedList {
     }
 
     return wantedNodeValue;
+  }
+
+  zip (headA, headB) {
+    if (headA === null) {
+      return headB;
+    } else if (headB === null) {
+      return headA;
+    } else {
+      let makeItRecursive = this.zip(headA.next, headB.next);
+      headB.next = makeItRecursive;
+      headA.next = headB;
+      return headA;
+    }
   }
 
 }
