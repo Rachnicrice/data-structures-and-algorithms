@@ -10,21 +10,26 @@ class Queue {
   }
 
   enqueue (value) {
-    let node = new Node (value);
-    
-    if(this.isEmpty()) {
-      this.front = new Node(value);
+    let node = new Node (value)
+    if (this.front === null) {
+      this.front = node;
+    } else if (this.front === this.back) {
+      this.front.next = node;
     } else {
-      this[this.]
+      this.back.next = node;
     }
-    this[this.length] = value;
-    this.length++;
-
+    this.back = node;
   }
 
   dequeue () {
     if (this.isEmpty()) throw new Error('cannot dequeue() empty queue');
+    let front = this.front;
+    if (this.front === this.back) {
+      this.back = null;
+    }
+    this.front = this.front.next;
 
+    return front;
   }
 
   peek () {
