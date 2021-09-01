@@ -31,11 +31,10 @@ class AnimalShelter {
       throw new Error('We don\'t currently have that animal in our shelter');
     }
 
-    if (!node.animal.equals('cat') && !node.animal.equals('dog')) {
-      console.log('Sorry we are only adopting cats and dogs right now');
-      return null;
+    if (!node.animal ==='cat' && !node.animal ==='dog') {
+      throw new Error('Sorry we are only adopting cats and dogs right now');
 
-    } else if (node.animal.equals(wantedAnimal)) {
+    } else if (node.animal === wantedAnimal) {
       if (node === this.oldest && node === this.newest) {
         this.oldest = node.next;
         this.newest = node.next;
