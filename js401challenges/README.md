@@ -117,3 +117,18 @@ The PseudoQueue class currently has the following public methods:
   - Takes in no parameters, removes the top Node from the stack and repoints the top to the next Node in the stack. Returns the value of the top Node.
 
 ![Whiteboard](../assets/queueWithStacks.jpg)
+----------------------------------------------------
+## Challenge Animal Shelter
+The problem domain for this challenge was to create a queue for an Animal Shelter, with enqueue and dequeue methods that allow the 'adopter' to specify which kind of animal they want to adopt from the shelter.
+
+## Approach & Efficiency
+In order to be able to not just return the first value in my queue but also be able to return the first animal that matched the specified type, I made my enqueue function recursive. It will check the first node in the queue, and if it doesn not match the specified type it will call itself again until the end of the queue is reached or a matching 'animal' is found.
+
+## API
+The AnimalShelter class currently has the following public methods:
+ - enqueue
+  - Takes in a string as a parameter. It will instantiate a new Animal and add it to the back of the queue.
+ - dequeue
+  - Takes in a string as a parameter, it will search the queue front to back until it finds the first value that matches the search parameter and return that value. It will repoint the node before to the node following the 'found' node.
+
+![Whiteboard](assets/fifoAnimalShelter.jpg)

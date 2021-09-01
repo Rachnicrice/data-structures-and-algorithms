@@ -392,4 +392,4 @@ I decided to keep track of the nodes that I had visited using a stack. As soon a
   - Takes in a graph. It will then grab the first Node or vertex in the graph and add it to a stack of visited nodes. While that stack is not empty, I will look at the node's neighbors and check if they have been visited yet. If they have not, I will add them to the visited stack and check their neighbors. Once all of the neighbors of a node have been finished I will pop it off the stack and add it to my final linked list. I then return the list which contains the nodes I visited in the order I visited them.
   
 [See Code Here](https://github.com/Rachnicrice/data-structures-and-algorithms/blob/master/code401challenges/src/main/java/code401challenges/DepthFirst/DepthFirst.java)
-![Whiteboard](assets/depthFirst.jpg)
+![Whiteboard](../assets/depthFirst.jpg)
