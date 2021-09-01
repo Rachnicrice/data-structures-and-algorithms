@@ -84,10 +84,10 @@ public class AnimalShelterTest {
     @Test
     public void testDequeue_AllAnimalsFromShelterInOrder () {
         Assert.assertEquals("cat", fullShelter.dequeue("cat"));
-        Assert.assertEquals("dog", fullShelter.dequeue("dog"));
+        Assert.assertEquals("cat", fullShelter.dequeue("cat"));
 
         Assert.assertEquals("dog", fullShelter.dequeue("dog"));
-        Assert.assertEquals("cat", fullShelter.dequeue("cat"));
+        Assert.assertEquals("dog", fullShelter.dequeue("dog"));
         Assert.assertEquals("dog", fullShelter.dequeue("dog"));
 
         Assert.assertEquals(null, fullShelter.oldest);
