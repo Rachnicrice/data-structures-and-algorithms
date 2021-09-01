@@ -10,7 +10,7 @@ I first found the midpoint of the input array, then I copied the first half of t
 ![Whiteboard](../assets/array-insert-shift.png)
 -------------------------------------------
 
-## Challenge 02
+## Challenge Binary Search
 The problem domain for this challenge was to create a method which takes in a sorted array and a search key, and perform a binary search on the array to find the index of the search key, returning -1 if the search key is not found.
 
 ## Approach & Efficiency
@@ -59,7 +59,7 @@ Takes in a string new value and search key and iterates through the linked list 
 
 [See Code Here](./LinkedList/LinkedList.js)
 -----------------------------------------------
-## Challenge 06
+## Challenge Kth From End
 The problem domain for this challenge was to create a method that took in a number (k) and returned the value of the Node kth from the end of the linked list.
 
 ## Approach & Efficiency
@@ -70,7 +70,22 @@ The LinkedList class currently has the following public methods:
  - llKthFromEnd
   - Takes in an int(k) and returns the value of the Node that number(k) from the end of the linked list.
  
-![Whiteboard](../assets/llkthfromend.jpg)
+![Whiteboard](assets/llkthfromend.jpg)
+---------------------------------------------------
+## Challenge Zip
+The problem domain for this challenge was to create a method that took in two linked lists and merged them together, returning the head node of the newly merged list.
+
+## Approach & Efficiency
+Because I had to loop through each of the values in the list in order to make re-point the nodes of the two singly-linked lists, my solution has an O(n) runtime. However since I did not allocate any memory to making a new list it has O(1) space complexity.
+
+## API
+The LinkedList class currently has the following public methods:
+ - mergeList
+  - Takes in two linked lists as parameters, repoints the Nodes to join the lists together and returns a reference to the head Node.
+ 
+ 
+[See Code Here](https://github.com/Rachnicrice/data-structures-and-algorithms/blob/master/code401challenges/src/main/java/code401challenges/LinkedList/LinkedList.java)
+![Whiteboard](assets/llmerge.jpg)
 ------------------------------------------------
 ## Stacks and Queues
 The following code challenges all use stacks and queues.  
@@ -103,7 +118,7 @@ The Stack class currently has the following public methods:
 [See Stack Implementtion Here](./Stacks_Queues/Stack.js)
 [See Queue Implementation Here](./Stacks_Queues/Queue.js)
 ------------------------------------------------------
-## Challenge 09
+## Challenge Queue with Stacks
 The problem domain for this challenge was to create a queue that uses stack objects to enqueue and dequeue.
 
 ## Approach & Efficiency
