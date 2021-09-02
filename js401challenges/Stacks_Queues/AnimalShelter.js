@@ -22,6 +22,7 @@ class AnimalShelter {
   }
 
   dequeue (wantedAnimal) {
+    console.log('inside dequeue', this.oldest);
     let adopted = this.findAnimal(wantedAnimal, this.oldest, this.oldest);
     return adopted.value;
   }
@@ -31,9 +32,8 @@ class AnimalShelter {
       throw new Error('We don\'t currently have that animal in our shelter');
     }
 
-    if (!node.animal ==='cat' && !node.animal ==='dog') {
+    if (!node.animal === 'cat' && !node.animal === 'dog') {
       throw new Error('Sorry we are only adopting cats and dogs right now');
-
     } else if (node.animal === wantedAnimal) {
       if (node === this.oldest && node === this.newest) {
         this.oldest = node.next;
@@ -45,7 +45,7 @@ class AnimalShelter {
       return node;
     } else {
       lastAnimal = node;
-      return this.findAnimal(wantedAnimal, node.next, lastAnimal);
+      return this.findAnimal(wantedAnimal, lastAnimal.next, lastAnimal);
     }
   }
 

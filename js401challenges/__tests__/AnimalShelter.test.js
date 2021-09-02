@@ -51,6 +51,7 @@ describe('testing animal shelter', () => {
   });
 
   it('can adpot when the wanted type of animal is at the front of the queue', () => {
+    console.log('###########################', fullShelter.oldest);
     expect(fullShelter.dequeue('cat')).toBe('cat');
   });
 
