@@ -158,3 +158,30 @@ I decided to loop through the string and evaluate each character individually. T
 - multiBracketValidation
   
 ![Whiteboard](../assets/multiBracket.jpg)
+------------------------------------------------
+# Binary Tree and BST
+The following code challenges all use binary trees and binary search trees.
+
+## Challenge
+The problem domain for this challenge was to create a binary tree and binary search tree. The binary tree includes a preOrder, inOrder and postOrder traversal methods. The binary search tree (BST) includes an add and contains method.
+
+## Approach & Efficiency
+I decided to approach each of these methods recursively. The contains method has an O(log n) runtime, all other methods have an O(n) runtime.
+
+## API
+The Tree class currently has the following public methods:
+ - preOrder
+  - Returns an array of the values in the binary search tree ordered from self (referring to the current Node) to left to right.
+ - inOrder
+  - Returns an array of the values in the binary search tree ordered from left to self (referring to the current Node) to right.
+ - postOrder
+  - Returns an array of the values in the binary search tree ordered from left to right to self (referring to the current Node).
+  
+The BST class currently has the following public methods:
+ - add
+  - Takes in a int value and instantiates a new Node, then does a recursive call to find where it belongs in the tree by checking to see if it is larger or smaller than the current node.
+ - contains
+  - Takes in a int value, then does a recursive call to find the value if it exists in the tree. Will return true if the value is found, false if not.
+  
+[See Code Here](https://github.com/Rachnicrice/data-structures-and-algorithms/js401challenges/Trees);
+
