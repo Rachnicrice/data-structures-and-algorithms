@@ -60,4 +60,15 @@ describe('Binary Tree tests', () => {
     }).toThrow();
   });
 
+  it('can perform a breadth first traversal', () => {
+    let expected = [];
+    expected.push(1);
+    expected.push(5);
+    expected.push(2);
+    expected.push(8);
+    let actual = testFull.breadthFirst();
+    expected(expected).toEqual(actual);
+  });
+
+
 });

@@ -49,6 +49,28 @@ class BinaryTree {
     }
   }
 
+  breadthFirst() {
+    let answers = [];
+    let q = [];
+    let currentNode = this.root;
+    q.push(currentNode);
+
+    while (q[0] !== null) {
+      if (currentNode.left !== null) {
+        q.push(currentNode.left);
+      }
+
+      if (currentNode.right !== null) {
+        q.push(currentNode.right);
+      }
+
+      answers.push(q.shift().value);
+      currentNode = q[0];
+    }
+
+    return answers;
+  }
+
 }
 
 module.exports = BinaryTree;
