@@ -71,6 +71,23 @@ class BinaryTree {
     return answers;
   }
 
+  findMax() {
+    if (this.root === null) throw new Error('Cannot find max on an empty tree');
+    let max = Number.MIN_VALUE;
+    return this.findMaxHelper(max, this.root);
+  }
+
+  findMaxHelper (max, node) {
+    if (node !== null) {
+      if (node.value > max) {
+        max = node.value;
+      }
+      max = this.findMaxHelper(max, node.left);
+      max = this.findMaxHelper(max, node.right);
+    }
+    return max;
+  }
+
 }
 
 module.exports = BinaryTree;

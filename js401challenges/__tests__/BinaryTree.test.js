@@ -70,5 +70,15 @@ describe('Binary Tree tests', () => {
     expected(expected).toEqual(actual);
   });
 
+  it('throws error when attempt find max on empty tree', () => {
+    expect(() => {
+      testEmpty.findMax();
+    }).toThrow();
+  });
+
+  it('can find the max value on a binary tree', () => {
+    let actual = testFull.findMax();
+    expect(8).toEqual(actual);
+  });
 
 });
