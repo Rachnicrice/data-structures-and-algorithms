@@ -196,4 +196,19 @@ This function is going to have an O(n) runtime because it will need to check eac
   - takes in a tree and, instantiaes a new queue list and answers list. Add the root node to the front of the queue, then in a loop that will run while the queue is not empty, add the left and right children of the front node to the back of the queue, remove the front node and add it to the answers list, set the new front node to be the next node in the queue. At the end of the loop, return the answers list.
   
 ![Whiteboard](../assets/breadthFirst.jpg)
+---------------------------------------------------------
+## Challenge Max Value
+The problem domain for this challenge was to create an instance method that found the maximum value present on a binary tree.
+
+## Approach & Efficiency
+This function is going to have an O(n) time complexity because it will need to check each node in the tree. However it does have an O(1) space complexity since I am only returning one value.
+
+## API
+- find_Maximum_Value
+  - the wrapper method takes in no parameters. It checks to see if the root is not null, if it is not, then it will instantiate a int called max to be the minimum possible value and call the recursive method.
+- find_Maximum_Value
+  - the recursive method takes in the max value and a node. It will check that the node is not null, if it is not it will check to see if the node's value is greater than max. If the node's value is greater, max will be set to equal the node value. Then max gets the recursive call passing in the new max and the node.left and node.right. Once all the recusive calls have been made max is returned.
+  
+![Whiteboard](../assets/findMax.jpg)
+
 
