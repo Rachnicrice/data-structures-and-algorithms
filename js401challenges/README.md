@@ -211,4 +211,8 @@ This function is going to have an O(n) time complexity because it will need to c
   
 ![Whiteboard](../assets/findMax.jpg)
 
+# Sorting Methods
+
+## Insertion Sort
+[A Walkthrough of Insertion Sort](https://github.com/Rachnicrice/data-structures-and-algorithms/blob/master/code401challenges/src/main/resources/InsertionSort.md)  
 
