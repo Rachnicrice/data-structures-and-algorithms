@@ -214,8 +214,12 @@ This function is going to have an O(n) time complexity because it will need to c
 # Sorting Methods
 
 ## Insertion Sort
-[A Walkthrough of Insertion Sort](https://github.com/Rachnicrice/data-structures-and-algorithms/blob/master/code401challenges/src/main/resources/InsertionSort.md)  
+[A Walkthrough of Insertion Sort](https://github.com/Rachnicrice/data-structures-and-algorithms/blob/master/java-401-challenges/src/main/resources/InsertionSort.md)  
 
 ## Merge Sort
-[A Walkthrough of Merge Sort](https://github.com/Rachnicrice/data-structures-and-algorithms/blob/master/code401challenges/src/main/resources/MergeSort.md) 
+[A Walkthrough of Merge Sort](https://github.com/Rachnicrice/data-structures-and-algorithms/blob/master/java-401-challenges/src/main/resources/MergeSort.md) 
+
+## Quick Sort
+[A Walkthrough of Merge Sort](https://github.com/Rachnicrice/data-structures-and-algorithms/blob/master/java-401-challenges/src/main/resources/QuickSort.md) 
+
 
