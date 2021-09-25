@@ -211,6 +211,8 @@ This function is going to have an O(n) time complexity because it will need to c
   
 ![Whiteboard](../assets/findMax.jpg)
 
+-----------------------------------------------------------------
+
 # Sorting Methods
 
 ## Insertion Sort
@@ -223,3 +225,25 @@ This function is going to have an O(n) time complexity because it will need to c
 [A Walkthrough of Merge Sort](https://github.com/Rachnicrice/data-structures-and-algorithms/blob/master/java-401-challenges/src/main/resources/QuickSort.md) 
 
 
+--------------------------------------------------------------------
+
+# Hashtables
+The following code challenges all hashtables.
+
+## Challenge 16
+This challenge was to implement a Hashtable with add, get, contains, and hash methods.
+
+## Approach & Efficiency
+A hash table best case will have an O(1) lookup time (this is if only one value exists at that location in the hashtable. If there are mutile entries at the same location in the hashtable it will be an O(n) lookup time to find the correct key/value pair.
+
+## API
+- add
+  - Takes in a key and a value, it will create a new HashEntry using these values, then it will get an index number by hashing the key. It will check the index number, if no values exist at this index the HashEntry will be inserted here. If other values do exist, the HashEntry will be added to the end of the list of values.
+- get
+  - Takes in a key and hashes it for an index number. It will then check for HashEntrys at that index. If a HashEntry exists, it will iterate through the list of entries until it finds a HashEntry with a matching key. It will then return the value of that HashEntry.
+- contains
+  - Takes in a key and hashes it for an index number. It will then check for HashEntrys at that index. If a HashEntry exists, it will iterate through the list of entries until it finds a HashEntry with a matching key. It will then return true. If no matching key is found it will return false.
+- hash
+  - Takes in a key and returns the absolute value of the key once it's hashcode has been called and % the size of the array.
+  
+[See Code Here](https://github.com/Rachnicrice/data-structures-and-algorithms/tree/master/js401challenges/HashTable/HashTable.js)
