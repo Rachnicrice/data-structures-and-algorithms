@@ -247,3 +247,15 @@ A hash table best case will have an O(1) lookup time (this is if only one value 
   - Takes in a key and returns the absolute value of the key once it's hashcode has been called and % the size of the array.
   
 [See Code Here](https://github.com/Rachnicrice/data-structures-and-algorithms/tree/master/js401challenges/HashTable/HashTable.js)
+
+## Hashmap Reapeated Word
+This challenge was to create a function that when given a string containing multiple words, would return the first repeated word in that string.
+
+## Approach & Efficiency
+I used a hashtable to store all the words in the string, and then iterated through the srting to find the first repeating word. Because this does require iterating through the string it has a runtime of O(n) where n is the number of words in the string.
+
+## API
+- repeatedWord
+  - Takes in a string. Creates an empty HashSet, then makes an array of all the words in the input string. Then for each word in the array, checks to see if it exists in the HashSet. If it does, return that word. If it does not, add the word to the HashSet and continue the loop.
+  
+![Whiteboard](../assets/findWord.jpg)
