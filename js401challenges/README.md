@@ -248,6 +248,8 @@ A hash table best case will have an O(1) lookup time (this is if only one value 
   
 [See Code Here](https://github.com/Rachnicrice/data-structures-and-algorithms/tree/master/js401challenges/HashTable/HashTable.js)
 
+-------------------------------------------------------
+
 ## Hashmap Reapeated Word
 This challenge was to create a function that when given a string containing multiple words, would return the first repeated word in that string.
 
@@ -259,3 +261,22 @@ I used a hashtable to store all the words in the string, and then iterated throu
   - Takes in a string. Creates an empty HashSet, then makes an array of all the words in the input string. Then for each word in the array, checks to see if it exists in the HashSet. If it does, return that word. If it does not, add the word to the HashSet and continue the loop.
   
 ![Whiteboard](../assets/findWord.jpg)
+
+---------------------------------------------------
+## Tree Intersection
+This challenge was to create a function that would return all matching values between two different input trees.
+
+## Approach & Efficiency
+I decided to add all the values from the first tree into a hashset. I would then do a breadth first travsersal of the second tree and check each node to see if it's value existed in the hashset. If the value did exist, I would add it to a separate hashset which I then returned at the end of the function.
+
+## API
+- tree_intersection
+  - Takes in two trees as parameters. Calls hashTree on the first tree, and then returns the result of findCommonValues passing in the second tree's root, the result of hashTree, and a new HashSet.
+- hashTree
+  - Takes in a node and a HashSet as parameters. Recursively calls itself on the node.left and node.right until all node values are added to the HashSet. Then returns the HashSet.
+- findCommonValues
+  - Takes in a node, hashset of keys and a new hashset as parameters. Checks if the node value exists in the HashSet of keys, if it does, add it's value to the new HashSet. Recursively calls itself on the node.left and node.right. Returns the new HashSet once the entire tree has been traversed.
+  
+![Whiteboard](../assets/treeIntersection.jpg)
+
+--------------------------------------------------
